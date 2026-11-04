@@ -1,0 +1,6 @@
+data/raw/
+data/new_orleans/
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
