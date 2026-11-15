@@ -137,6 +137,8 @@ These themes help explain why a restaurant was recommended instead of relying on
 - [Geographic analysis and maps](https://github.com/castro1980/167R-Project-2/blob/main/R/06_geography_analysis.R)
 - [Restaurant recommendations by dining need](https://github.com/castro1980/167R-Project-2/blob/main/R/07_restaurant_recommendations.R)
 - [Complete R code folder](https://github.com/castro1980/167R-Project-2/tree/main/R)
+- [Critical reviewer analysis](https://github.com/castro1980/167R-Project-2/blob/main/R/04_picky_reviewer_analysis.R)
+- [Review theme analysis](https://github.com/castro1980/167R-Project-2/blob/main/R/05_review_themes.R)
 
 ## Limitations
 
