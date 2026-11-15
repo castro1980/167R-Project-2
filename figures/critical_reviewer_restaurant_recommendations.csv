@@ -1,0 +1,411 @@
+business_id,name,postal_code,stars,review_count,categories,is_open,reviews_analyzed,critical_reviewer_reviews,critical_positive_reviews,critical_reviewer_average_rating,critical_positive_share
+-1XSzguS6XLN-V6MVZMg2A,Restaurant Rebirth,70130,4.5,521,"Cajun/Creole, Soup, Seafood, Restaurants, Steakhouses, Southern",1,534,6,6,4.666666666666667,1
+pKvKZCB0fq4KgtK2Pc0yaQ,Budsi's Authentic Thai,70116,4.5,110,"Soup, Bars, Noodles, Nightlife, Seafood, Restaurants, Thai",1,110,5,5,4.6,1
+XjjgJb0iyG33CQp4ehnRGQ,Jamila's Mediterranean Tunisian Cuisine,70118,4.5,175,"Vegetarian, Restaurants, Mediterranean",1,178,12,11,4.416666666666667,0.9166666666666666
+EmJF-xSIOaEEOWcK8UOBqg,Fharmacy Nola,70119,4.5,463,"Restaurants, American (Traditional), Nightlife, Bars",1,479,21,18,4.476190476190476,0.8571428571428571
+MG_wIwRBwyNnCAEMXe9Jqw,French Toast,70116,4.5,562,"Breakfast & Brunch, Restaurants",1,566,7,6,3.857142857142857,0.8571428571428571
+vwOJ4yZH1I85-T3dJyr2ig,Two Chicks Café - CBD,70112,4.5,324,"Juice Bars & Smoothies, American (Traditional), Restaurants, Food, Breakfast & Brunch",1,330,7,6,4.285714285714286,0.8571428571428571
+I-23nT_0H9lEW8qFHLQ1pA,Royal Sushi & Bar,70116,4.5,194,"Restaurants, Ramen, Bars, Nightlife, Sushi Bars, Japanese",1,196,7,6,4.428571428571429,0.8571428571428571
+TUTQeLjq1UbkR5r8mOvMqw,Tito's Ceviche & Pisco,70115,4.5,213,"Restaurants, Latin American, Peruvian, Seafood, Japanese",1,221,7,6,4.571428571428571,0.8571428571428571
+PupRtvjjZJcLzIlkMw3hpA,Barrows Catfish Restaurant New orleans,70118,4.5,197,"Restaurants, Fish & Chips",1,204,13,11,3.923076923076923,0.8461538461538461
+PDpEFp0lCsXtGsUO1WPllA,The Franklin,70117,4,197,"American (New), American (Traditional), Restaurants, Bars, Nightlife, Seafood, Cocktail Bars",1,202,13,11,4.3076923076923075,0.8461538461538461
+yk5S9Lrs0EUHUKxujlGEAA,Quarter Grocery & Deli,70116,4.5,108,"Food, Grocery, Sandwiches, Restaurants, Delicatessen, Delis",1,109,6,5,4.5,0.8333333333333334
+ILWv3aMVbZUMjcMSTGgStQ,Good Bird,70115,4,110,"Chicken Shop, Sandwiches, Salad, Restaurants, Juice Bars & Smoothies, Breakfast & Brunch, Food",1,114,6,5,4.333333333333333,0.8333333333333334
+bWJbqXuyEgGr7Q8Xf8HUwA,Kyoto 2,70123,4,106,"Diners, Sushi Bars, Japanese, Restaurants",1,111,6,5,3.6666666666666665,0.8333333333333334
+M1hsyjJDdQQeNP164FJ1pA,St. James Cheese Company | Uptown,70115,4.5,448,"Restaurants, Specialty Food, Delis, Food, Cheese Shops, Sandwiches",1,456,29,24,4.103448275862069,0.8275862068965517
+dclL14pr7OojCOKJ_ZbMbQ,Angelo Brocato,70119,4.5,638,"Bakeries, Ice Cream & Frozen Yogurt, Food, Desserts, Gelato, Restaurants, Coffee & Tea, Patisserie/Cake Shop",1,650,33,27,4.424242424242424,0.8181818181818182
+3kc7vVRl845AknJtUqGRAg,Shawarma on the Go,70115,4.5,227,"American (Traditional), Restaurants, Middle Eastern, Mediterranean",1,233,11,9,4.363636363636363,0.8181818181818182
+I3Uy20BKx7G-Fzz6hLIeWg,Restaurant August,70130,4.5,1326,"Cajun/Creole, American (New), Restaurants, French",1,1350,42,34,4.333333333333333,0.8095238095238095
+gC8i-lxwvGhVpOXM5eYdtA,Taqueria Guerrero,70119,4,245,"Mexican, Restaurants",1,254,25,20,4,0.8
+snguCYg0ierKRuUTxCDH7w,Fritzel's European Jazz Pub,70116,4.5,432,"Bars, Arts & Entertainment, Event Planning & Services, Musicians, Food, Pubs, Jazz & Blues, Restaurants, Nightlife",1,435,10,8,3.9,0.8
+C6YaSrMAzy3jJqinlFVudw,Welty's Deli and Catering,70130,4.5,323,"Delis, Event Planning & Services, Restaurants, Breakfast & Brunch, Sandwiches, Caterers",1,366,10,8,4.2,0.8
+rvF-BwyaCHeb30u3Xf7FbQ,The Elysian Bar,70117,4.5,140,"American (New), Restaurants",1,143,5,4,4.2,0.8
+FCfTUUTYXfZchPvx7tkoWA,Espíritu Mezcaleria,70130,4.5,107,"Tacos, Restaurants, Tapas Bars, Mexican, Nightlife, Bars, Cocktail Bars",1,109,5,4,4,0.8
+PLebbMEYWV-5ggzx0c4lBQ,J's Creole Wings,70116,4.5,163,"Restaurants, Chicken Wings, American (Traditional)",1,167,5,4,4.4,0.8
+H41S-qS3NOUJSbIqWTuyIA,Paddlewheeler Creole Queen,70130,4,713,"Hotels & Travel, Cajun/Creole, Boat Charters, Restaurants, Tours, Event Planning & Services",1,717,5,4,4.2,0.8
+iZ7-gwaBWYHiWhez4514jA,Pythian Market,70112,4.5,186,"Nightlife, Breakfast & Brunch, Bars, Restaurants, Food Court",1,194,9,7,3.888888888888889,0.7777777777777778
+sitve7-2mPUQQ2bV8jLCRg,New Orleans School of Cooking,70130,4.5,525,"Hotels & Travel, Cooking Schools, Restaurants, Tours, Specialty Schools, Education",1,529,9,7,3.7777777777777777,0.7777777777777778
+jKTWcdyXPw_cGUp9fKqapQ,Sneaky Pickle,70117,4.5,347,"Vegan, Vegetarian, Cafes, American (New), Restaurants",1,356,9,7,4.111111111111111,0.7777777777777778
+8FWAoGPBwRS3I7_FP7u-Mw,Nola Caye,70113,4.5,145,"Tacos, American (Traditional), Caribbean, Restaurants, Mexican",1,148,9,7,4.111111111111111,0.7777777777777778
+Zi-F-YvyVOK0k5QD7lrLOg,Muriel's Jackson Square,70116,4,1963,"Cajun/Creole, Restaurants",1,2008,58,45,4.120689655172414,0.7758620689655172
+IGna30iAQJa6RMbsv-9tWg,Dong Phuong,70129,4.5,402,"Restaurants, Breakfast & Brunch, Vietnamese, Food, Chinese, Bakeries",1,423,26,20,4.038461538461538,0.7692307692307693
+2qAcKMt6-puXKlFi7T3mIg,Haydel's Bakery,70121,4,169,"Food, Restaurants, Bakeries",1,175,13,10,4,0.7692307692307693
+yE6aDcbbK8pmvNroXnQYQA,Majoria's Commerce Restaurant,70130,4.5,866,"Diners, Sandwiches, Restaurants, Breakfast & Brunch",1,880,17,13,3.5294117647058822,0.7647058823529411
+_393npnr0Dw1aGKy83x_0A,Paladar 511,70117,4.5,507,"Restaurants, Pizza, American (New), Breakfast & Brunch, Mediterranean",1,522,21,16,4.142857142857143,0.7619047619047619
+URxxeb2R60AH81IcuxJAvQ,Milk Bar,70118,4.5,298,"Sandwiches, Restaurants",1,301,16,12,4,0.75
+OI2J5UsaCSD1xFnY0psJ2w,Victory,70112,4,284,"Nightlife, American (Traditional), Food, Bars, Lounges, Restaurants, Asian Fusion, Tapas Bars, American (New), Gastropubs, Beer, Wine & Spirits, Cocktail Bars, Pizza, Local Flavor",1,292,12,9,3.8333333333333335,0.75
+82_lGisVlstS_ojKZw9qNw,CIBO,70118,5,132,"Delis, Italian, Restaurants",1,138,8,6,4.125,0.75
+Jy1ivHnSRtNNA6snZSAKBw,Twelve Mile Limit,70119,4.5,150,"Restaurants, Nightlife, Food, Lounges, Desserts, Bars, Breakfast & Brunch, Cocktail Bars",1,157,8,6,3.75,0.75
+SbuLL-8eSaUs-huaYR5_IQ,The Delachaise,70115,4,416,"Wine Bars, Cajun/Creole, American (New), Nightlife, Local Flavor, Lounges, Restaurants, Bars",1,428,31,23,3.903225806451613,0.7419354838709677
+yL9j5ASNic_DaDKf9lwMhw,Stein's Market and Deli,70130,4.5,603,"Delis, Convenience Stores, Sandwiches, Restaurants, Food",1,620,38,28,3.894736842105263,0.7368421052631579
+iYUwyARgC_RNPA1rTlL3-Q,Crabby Jack's,70121,4.5,382,"Seafood, Sandwiches, Cajun/Creole, Restaurants, Southern",1,399,26,19,3.6923076923076925,0.7307692307692307
+TMBbCDQG6bENJoQSST0XiA,Brigtsen's Restaurant,70118,4.5,335,"Restaurants, Cajun/Creole, Active Life, Southern",1,353,18,13,4,0.7222222222222222
+P9xNwbMStRsHsVc6K5PDpg,Toast,70115,4.5,548,"Breakfast & Brunch, Restaurants, Bakeries, Food",1,566,35,25,3.9714285714285715,0.7142857142857143
+jrGaVL6KIwYpwivse_eKXw,Mid-City Yacht Club,70119,4.5,149,"Restaurants, Bars, Food, Breweries, American (Traditional), Pubs, Nightlife, Sports Bars",1,156,14,10,4,0.7142857142857143
+KZe5kpIHWVuJl6WgNYzceg,Please-U-Restaurant,70130,4,274,"Cajun/Creole, Breakfast & Brunch, Diners, Restaurants",1,282,14,10,3.5714285714285716,0.7142857142857143
+UoZg0xZepdMXbK_2dtT2nw,Gracious Bakery + Cafe,70115,4.5,149,"Bakeries, Restaurants, Cafes, Food, Coffee & Tea, Breakfast & Brunch",1,156,7,5,3.5714285714285716,0.7142857142857143
+HUfoljaD3iVbHdQlBAsV4Q,Revel Cafe and Bar,70119,4.5,138,"American (Traditional), Restaurants, American (New), Nightlife, Cocktail Bars, Cafes, Bars, Sandwiches",1,144,7,5,4.142857142857143,0.7142857142857143
+b_WqANUY0faWZOpMNiBLew,Clancy's Restaurant,70118,4,318,"Cajun/Creole, Seafood, Restaurants",1,322,17,12,3.9411764705882355,0.7058823529411765
+GSOLNXG5-IPvNj0DPf3kOQ,Irene's,70116,4.5,920,"Italian, Restaurants",1,948,27,19,3.7037037037037037,0.7037037037037037
+dN7AMKUhwTa4Kk0bdMRPgA,Cafe Abyssinia,70115,4,286,"Cafes, Restaurants, Ethiopian, Vegetarian",1,294,27,19,3.5555555555555554,0.7037037037037037
+yMlpyzvx5o3tTFI_1esgGQ,Bakery Bar,70130,4.5,464,"Desserts, Comfort Food, Bars, Nightlife, Bakeries, Food, Restaurants, Breakfast & Brunch",1,484,20,14,3.8,0.7
+6_OAIFxSk3YjNdRJv59Saw,Sofia,70130,4.5,251,"Italian, Venues & Event Spaces, Event Planning & Services, Restaurants",1,263,10,7,3.6,0.7
+xZileQFJ7h-0QKjtGc9xgg,Arnaud's French 75 Bar,70195,4.5,468,"Nightlife, French, Bars, Lounges, Restaurants, Cajun/Creole",1,472,10,7,4,0.7
+nk96iwJV1_p2HECYQW1ysA,French Quarter Phantoms,70116,4.5,1481,"Public Services & Government, Landmarks & Historical Buildings, Walking Tours, Art Tours, Restaurants, Hotels & Travel, Historical Tours, Tours, Barbeque, Local Flavor",1,1499,10,7,3.9,0.7
+o5UrUOKcmj5GFXmB6Osb6w,Bouligny Tavern,70115,4,160,"Restaurants, Gastropubs, Nightlife, Bars, Wine Bars, Tapas/Small Plates",1,162,10,7,3.7,0.7
+wqGkMLZVXc0pYVjr3zDrpA,Vacherie,70112,4,345,"Cajun/Creole, Restaurants, Event Planning & Services, Party & Event Planning, Breakfast & Brunch, Southern",1,353,10,7,3.6,0.7
+3n2FIVhxAjG6fjju4wdzXw,The Bean Gallery,70119,4,181,"Coffee & Tea, Breakfast & Brunch, Restaurants, Bagels, Food",1,187,10,7,3.7,0.7
+OIbh0ZOemmphJR4Att3E6A,Doris Metropolitan,70116,4.5,659,"Wine Bars, Steakhouses, Nightlife, American (New), Restaurants, Bars",1,679,23,16,3.9565217391304346,0.6956521739130435
+cpsdgiE7hmOw8UtymGTkCQ,Oak,70118,4,125,"Beer, Wine & Spirits, Bars, Tapas Bars, Restaurants, Food, Nightlife, Wine Bars",1,128,23,16,3.6956521739130435,0.6956521739130435
+5xRmemqmR89BpGoOA25hqA,Dian Xin,70116,4.5,389,"Dim Sum, Chinese, Restaurants",1,402,13,9,3.923076923076923,0.6923076923076923
+aeIWVa6G54UUo6yloJkyJg,Lebanon's Cafe,70118,4.5,561,"Restaurants, Middle Eastern",1,586,45,31,3.6444444444444444,0.6888888888888889
+h8h1QvEQruTkBI50NlWsyA,Vincent's Italian Cuisine,70118,4.5,534,"Restaurants, Italian",1,559,41,28,3.7560975609756095,0.6829268292682927
+9xdXS7jtWjCVzL4_oPGv9A,GW Fins,70112,4.5,2443,"Seafood, Gluten-Free, Vegetarian, Restaurants",1,2502,50,34,3.9400000000000004,0.68
+bSJczuohHVko33UT82hnfA,Blaze Pizza,70113,4,302,"Pizza, Fast Food, Gluten-Free, Restaurants, Salad",1,304,28,19,3.607142857142857,0.6785714285714286
+TcNZXteosegb1RO4O5hREw,Parkway Bakery & Tavern,70119,4.5,2160,"Restaurants, Sandwiches, Seafood, Food, Desserts, Bakeries, Comfort Food, Beer, Wine & Spirits",1,2223,90,61,3.833333333333333,0.6777777777777778
+rsMbMeW7IbXxPFh4WwbddQ,Boucherie,70118,4.5,577,"Restaurants, Barbeque, American (New), Southern, Tapas/Small Plates, Cocktail Bars, Bars, Nightlife",1,591,37,25,3.864864864864865,0.6756756756756757
+Fs4T7lKpXVtD5Pz7jWSJeg,Coquette,70115,4.5,784,"Restaurants, French, American (New)",1,811,27,18,3.851851851851852,0.6666666666666666
+guwb1zuNEMtJVproo0ntFw,La Boca,70130,4,420,"Argentine, Latin American, Steakhouses, Desserts, Restaurants, Brazilian, Food",1,435,24,16,4,0.6666666666666666
+y-g8sgT7WkN16BBe9Vj41g,Gus's World Famous Fried Chicken,70130,4.5,529,"Southern, Comfort Food, Restaurants, Chicken Shop",1,536,21,14,3.6666666666666665,0.6666666666666666
+BCc22qCuePzF3j2AVvrkxg,Desi Vega's Steakhouse,70130,4.5,347,"Bars, Restaurants, Steakhouses, Seafood, Nightlife",1,357,18,12,3.7222222222222223,0.6666666666666666
+wwmlA6z3OhuykghM7f9RkA,Patois Restaurant,70118,4,202,"Breakfast & Brunch, Restaurants, Seafood, French",1,207,18,12,3.7777777777777777,0.6666666666666666
+wtwDcp79klLOLaIjCFHQCA,Saffron nola,70115,4.5,297,"American (New), Bars, Cocktail Bars, Indian, Asian Fusion, Food, Restaurants, Nightlife, Seafood",1,305,15,10,3.8,0.6666666666666666
+Rx5lfHMWkezmQjCfr2ziAw,Eat-well Food Mart,70119,4.5,126,"Vietnamese, Restaurants, Food, Convenience Stores, Sandwiches, Specialty Food, Ethnic Food",1,135,12,8,3.6666666666666665,0.6666666666666666
+WO-ofNAvSuJpdRt9Auon6w,Heard Dat Kitchen,70113,4.5,562,"Restaurants, Cajun/Creole, Seafood, Soul Food",1,579,12,8,3.8333333333333335,0.6666666666666666
+BfkqPDZ2Tt7Afhp5gn3wfw,Thai Mint,70118,4,168,"Thai, Restaurants",1,174,12,8,3.5833333333333335,0.6666666666666666
+BbnL_wJLB-EHvFx0dXuAjg,Olde Nola Cookery,70130,4,1318,"Restaurants, Seafood, Cajun/Creole, Soul Food",1,1329,12,8,3.25,0.6666666666666666
+CRnqAB-ViEfQ0CQGOlEIeA,Bywater Bakery,70117,4.5,193,"Bakeries, Restaurants, Cafes, Sandwiches, Food",1,203,9,6,4.222222222222222,0.6666666666666666
+rOsC1rDpIxvNoHxEvNFjeA,Backspace Bar & Kitchen,70130,4,443,"Burgers, Beer, Wine & Spirits, Cocktail Bars, Bars, Food, Nightlife, Dive Bars, Restaurants",1,453,9,6,3.6666666666666665,0.6666666666666666
+EHhwVLuIIrq4somySU0m8A,Hot Tin,70130,4,226,"Champagne Bars, Bars, Nightlife, Lounges, Beer Bar, Cocktail Bars, Wine Bars, Pop-Up Restaurants, Restaurants, Salad",1,230,9,6,3.6666666666666665,0.6666666666666666
+-e7vSLH84kk7mzHsesL0Qg,Pirates Alley Cafe,70116,4,251,"Nightlife, Bars, Pubs, Event Planning & Services, Restaurants, Venues & Event Spaces",1,255,9,6,3.7777777777777777,0.6666666666666666
+0yRYIODkl8da3ZDdOmMAZA,Vyoone's Restaurant,70130,4.5,148,"Breakfast & Brunch, Restaurants, American (Traditional), Diners, French",1,149,6,4,3.3333333333333335,0.6666666666666666
+jE7PpEUmWgcBc0DeelPAOA,Bistro Daisy,70115,4.5,119,"American (New), Restaurants",1,119,6,4,4.166666666666667,0.6666666666666666
+IGrnxa9v6C1mTwWMjt3_9w,The Green Room Kukhnya,70117,4.5,106,"Specialty Food, Polish, Modern European, Ukrainian, Food, Restaurants, Ethnic Food, Russian, American (New)",1,110,6,4,3.8333333333333335,0.6666666666666666
+N1Kv9Uxx4ZHeooGcpNe_RQ,Gazebo Cafe,70116,4,310,"Restaurants, Cajun/Creole",1,314,6,4,3.6666666666666665,0.6666666666666666
+1XlT3ELRG2g2LA5zsxkWWA,Cajun Seafood,70125,4,165,"Restaurants, Seafood, Local Flavor",1,168,6,4,3.1666666666666665,0.6666666666666666
+2DTkzhmMpv5fIPKheePClA,Shaya,70115,4.5,1433,"Mediterranean, Middle Eastern, Restaurants, Desserts, Food, Kosher, American (New)",1,1457,58,38,3.8793103448275863,0.6551724137931034
+e42VEvA54BcgYadQ5dtykw,Theo's Neighborhood Pizza,70115,4,150,"Restaurants, Sandwiches, Pizza",1,153,23,15,3.4347826086956523,0.6521739130434783
+OSi2ColCxhS9oCoAUNbPig,Mandina's Restaurant,70119,4,669,"Restaurants, Cajun/Creole",1,712,40,26,3.625,0.65
+i6YvzoCYT6vCxBxqD7nR-g,Sazerac Bar,70112,4,493,"Bars, Restaurants, Cocktail Bars, Lounges, Venues & Event Spaces, Nightlife, Event Planning & Services",1,501,20,13,3.85,0.65
+Em8g9eo0cKkwYVaHmGiKMQ,Sarita's Grill,70115,4,178,"Mexican, Latin American, Cuban, Restaurants",1,185,20,13,3.8,0.65
+jMZ56S8Y1t7cA1Ob-d-qeA,Three Muses,70116,4,1165,"Nightlife, Jazz & Blues, American (New), Music Venues, Restaurants, Gastropubs, Arts & Entertainment",1,1178,31,20,3.6129032258064515,0.6451612903225806
+ww3YJXu5c18aGZXWmm00qg,Café Amelie,70116,4.5,2756,"Southern, American (New), Breakfast & Brunch, Restaurants",1,2790,56,36,3.5357142857142856,0.6428571428571429
+mRpk0A4u0hnF0lNe1h4hGg,Bearcat Cafe,70115,4.5,886,"Coffee & Tea, Vegan, Restaurants, Breakfast & Brunch, Food",1,913,28,18,3.7857142857142856,0.6428571428571429
+BjeHLwKOlHyV6DJgmZxAjA,Jimmy J's Cafe,70130,4,2137,"American (Traditional), Cafes, American (New), Restaurants, Sandwiches, Breakfast & Brunch",1,2178,28,18,3.607142857142857,0.6428571428571429
+suSDu8cXK_9uuAJopn2R1g,Castnet Seafood,70127,4.5,178,"Seafood Markets, Food, Restaurants, Specialty Food, Salad, Seafood, Sandwiches",1,184,14,9,4.071428571428571,0.6428571428571429
+_C7QiQQc47AOEv4PE3Kong,Commander's Palace,70130,4.5,4876,"French, Restaurants, Cocktail Bars, Nightlife, American (New), Cajun/Creole, Breakfast & Brunch, American (Traditional), Bars",1,4969,108,69,3.7685185185185186,0.6388888888888888
+d9OTctJEITa5DmAvWpKfoA,Arabella Casa Di Pasta,70117,4.5,228,"Gluten-Free, Vegetarian, Italian, Restaurants",1,231,22,14,3.8181818181818183,0.6363636363636364
+60PRpOidld9weYzjWwlMaQ,Meals From The Heart Cafe,70116,4.5,819,"Gluten-Free, American (New), Vegan, Food, Restaurants, Breakfast & Brunch",1,831,11,7,3.909090909090909,0.6363636363636364
+SYCGlb0WFyyVxD2K9Z-YuA,Boswell's Jamaican Grill,70119,4,220,"Restaurants, American (Traditional), Caribbean",1,228,11,7,3.5454545454545454,0.6363636363636364
+95d60_mjUg2kLy-bhDLC6w,Theo's Neighborhood Pizza,70119,4,144,"Pizza, Sandwiches, Restaurants",1,149,11,7,3.3636363636363638,0.6363636363636364
+vN6v8m4DO45Z4pp8yxxF_w,Surrey's Café & Juice Bar,70130,4.5,2084,"Vegetarian, Restaurants, Breakfast & Brunch, Cafes, Juice Bars & Smoothies, Sandwiches, Food",1,2120,46,29,3.717391304347826,0.6304347826086957
+e1WJ1qcgF2TBkoYzopeTgQ,Adolfo's,70116,4,863,"Restaurants, Seafood, Italian",1,881,24,15,3.5,0.625
+OINbC0rpDVJ5bfxt3LO9fw,Li'l Dizzy's Cafe,70116,4.5,651,"Restaurants, Cajun/Creole",1,669,16,10,3.25,0.625
+OxXMZfaRZc7SJnjMBkO1ww,Taceaux Loceaux,70115,4.5,131,"Restaurants, Mexican, Food Trucks, Food, Food Stands, Street Vendors",1,137,16,10,3.6875,0.625
+Exh1uNhTSDR1hGivZBIylA,The Pelican Club,70130,4,458,"Seafood, American (New), American (Traditional), Restaurants, French, Cajun/Creole",1,470,16,10,3.625,0.625
+vvOzblHBA2HHsCb7CMSDbQ,Mona's Cafe,70119,4,202,"Middle Eastern, Restaurants, Ethnic Grocery, Food, International Grocery",1,210,16,10,3.75,0.625
+t3OnkntIrz2GjYgeGmsh5Q,Tacklebox,70112,4,156,"Breakfast & Brunch, Southern, Restaurants",1,160,8,5,3.75,0.625
+Ti_HP5D0V_7z9_q43ayn7Q,Olive Branch Cafe,70131,4,128,"Caterers, Food Delivery Services, Event Planning & Services, Pizza, Italian, Restaurants, Food",1,134,8,5,3.5,0.625
+ZTctPm8-lBy0iJ9dFhYhyQ,Herbsaint,70130,4,879,"Seafood, Restaurants, French",1,901,21,13,3.7142857142857144,0.6190476190476191
+Z4PF4EtM12L7nwOHZHFJNA,Seed,70130,4,967,"Vegan, American (New), Restaurants, American (Traditional), Vegetarian, Breakfast & Brunch",1,983,21,13,3.8095238095238093,0.6190476190476191
+kFwYrDiiVuaEuw1WIV260w,Avo,70115,4.5,191,"Ethnic Food, Food, Local Flavor, Restaurants, Italian, Specialty Food",1,198,13,8,3.6153846153846154,0.6153846153846154
+HEf0QXnhxrcIWxRfAbQ2iA,Saba,70115,4.5,345,"Mediterranean, Restaurants, Middle Eastern",1,353,13,8,3.4615384615384617,0.6153846153846154
+EC20rN7JtmAPIxcw3MTzcQ,Orleans Grapevine Wine Bar & Bistro,70116,4,457,"Wine Bars, Nightlife, Restaurants, Bars, American (New), Local Flavor",1,466,13,8,3.6153846153846154,0.6153846153846154
+ujyjBLOzSXKO3RrbpJ4N4g,McHardy's Chicken & Fixin',70119,4,128,"Local Flavor, Restaurants, Southern, Soul Food",1,131,13,8,3.6923076923076925,0.6153846153846154
+GBTPC53ZrG1ZBY3DT8Mbcw,Luke,70130,4,4554,"German, Restaurants, Seafood, Cocktail Bars, French, Brasseries, American (New), Nightlife, Bars, Cajun/Creole, Breakfast & Brunch",1,4661,109,67,3.6605504587155964,0.6146788990825688
+Meww6RIE4cFL_kG0aRlbAA,Blue Oak BBQ,70119,4.5,1077,"Chicken Wings, Restaurants, Nightlife, Barbeque, Bars, Event Planning & Services, Caterers",1,1126,57,35,3.789473684210526,0.6140350877192983
+dBOVfp8Ub8uO9qUPtw92_w,Lilette,70115,4,298,"Italian, Restaurants, French",1,303,18,11,3.7777777777777777,0.6111111111111112
+FEXhWNCMkv22qG04E83Qjg,Café Du Monde,70116,4,1880,"Flowers & Gifts, Gift Shops, Cafes, Restaurants, Coffee & Tea, Donuts, Food, Souvenir Shops, Shopping",1,1894,23,14,3.5652173913043477,0.6086956521739131
+vNUEotvnUX--fUfGWhivGQ,Bevi Seafood,70119,4,340,"Salad, Seafood, Food, Specialty Food, Sandwiches, Restaurants, Seafood Markets",1,349,23,14,3.6521739130434785,0.6086956521739131
+CVmzqrekI1iYHio8pTyTpA,Surrey's Uptown,70115,4,466,"Restaurants, Breakfast & Brunch",1,477,23,14,3.608695652173913,0.6086956521739131
+gTC8IQ_i8zXytWSly3Ttvg,Cochon Butcher,70130,4.5,3837,"Shopping, Butcher, Restaurants, Sandwiches, Food, Meat Shops, Specialty Food",1,3917,89,54,3.752808988764045,0.6067415730337079
+H5KRna9A6mDQEJ2ZN0zL6g,La Petite Grocery,70115,4,715,"Restaurants, Wine Bars, Food, Brasseries, Bars, American (New), Breakfast & Brunch, Nightlife, Modern European, French, Cajun/Creole, Southern",1,730,33,20,3.757575757575758,0.6060606060606061
+Vz2RN55rTJBGn43K1v84nA,Domenica,70112,4,1906,"Restaurants, Italian, Pizza, Tapas/Small Plates",1,1974,71,43,3.5774647887323945,0.6056338028169014
+pym7c6ZFEtmoH16xN2ApBg,Katie's Restaurant & Bar,70119,4.5,1289,"Restaurants, Bars, Nightlife, American (Traditional), Cajun/Creole, Seafood",1,1333,60,36,3.6166666666666667,0.6
+5rScKeYVjFk8VahsvJv9QA,Mikimoto,70118,4,394,"Japanese, Sushi Bars, Restaurants, Fast Food, Asian Fusion",1,418,30,18,3.533333333333333,0.6
+x4K6aMaOYvGhC5jhFJP2Ag,Pho Tau Bay Restaurant,70112,4,348,"Restaurants, Event Planning & Services, Chinese, Caterers, Vietnamese, Breakfast & Brunch",1,367,25,15,3.44,0.6
+0DdmKihJ90qKP5TAM3c2yQ,Tartine,70118,4.5,290,"French, Breakfast & Brunch, Bakeries, Restaurants, Sandwiches, Food",1,310,20,12,3.7,0.6
+yKAOohng_AJl22LgjBPl1g,Gyu-Kaku Japanese BBQ,70130,4.5,319,"Asian Fusion, Japanese, Restaurants, Barbeque",1,334,10,6,3.8,0.6
+pSgZ6x48zgkbWucfzswkzg,Nomiya,70115,4.5,258,"Soul Food, Asian Fusion, Noodles, Restaurants, Japanese, Ramen",1,263,10,6,3.6,0.6
+3wq2chcgOs5D7f6KHcINmg,Yummy Sushi & Hibachi,70122,4,104,"Sushi Bars, American (New), Restaurants",1,106,10,6,3.4,0.6
+2EOinQpyU4ChpyJ4KusO2A,Good Eden Nola Plantmade,70119,4.5,152,"Mediterranean, Coffee & Tea, Food, Restaurants, Juice Bars & Smoothies, Vegan, Cafes, Gluten-Free, Vegetarian",1,159,5,3,3.4,0.6
+6jKFWxE2fJIhfwbYgwqcfg,Barcelona Tapas,70118,4.5,118,"Restaurants, Tapas/Small Plates, Spanish",1,119,5,3,3.8,0.6
+WYSqcpQv0OA8RyE7f2mnnw,Effervescence,70116,4.5,143,"Restaurants, Bars, Tapas/Small Plates, Wine Bars, Lounges, Nightlife, Champagne Bars",1,147,5,3,3.6,0.6
+mG-JcnRZCAYfznkxhiClkA,Cafe Dauphine,70117,4.5,153,"Restaurants, Southern, Cafes, Cajun/Creole",1,155,5,3,3.6,0.6
+07D-uYB0PrSYUVpbKeojJA,Windsor Court Hotel,70130,4.5,202,"Event Planning & Services, Hotels, American (New), Restaurants, Hotels & Travel",1,209,5,3,3.8,0.6
+fsFZQ2ZbTutgUlnWPhTU6A,J's Seafood Dock,70116,4,333,"Restaurants, Cajun/Creole, Seafood",1,337,5,3,3.6,0.6
+_LgI5387qAmMuS8i6h69cg,Meril,70130,4,900,"Restaurants, American (New)",1,920,32,19,3.5625,0.59375
+q6hWVlVeiCgMgM22wt1wfw,The Company Burger,70115,4,748,"Burgers, Food, Beer, Wine & Spirits, Restaurants, Fast Food",1,776,66,39,3.3939393939393936,0.5909090909090909
+HV7AHORTkLqIfhR-tpRmzg,Asuka Sushi & Hibachi,70125,4.5,307,"Restaurants, Sushi Bars, Food, Japanese, Asian Fusion",1,316,22,13,3.6818181818181817,0.5909090909090909
+WNhcS2zi4zAqA2TbduVINQ,Cleo's,70112,4,746,"Food, Convenience Stores, Vegan, Salad, Mediterranean, Seafood, Middle Eastern, Halal, Kebab, Restaurants, Vegetarian",1,775,24,14,3.75,0.5833333333333334
+XNllgtbX8Er5sixIrJMEoQ,The Rusty Nail,70130,4.5,209,"Lounges, Sports Bars, Whiskey Bars, Music Venues, Restaurants, Dive Bars, Bars, Arts & Entertainment, Nightlife, Pizza",1,212,12,7,3.5833333333333335,0.5833333333333334
+FCCnOgjjvwQJBAy3u2fcLA,Criollo Restaurant,70130,4,269,"Cajun/Creole, Wine Bars, American (New), Breakfast & Brunch, Bars, Nightlife, Restaurants",1,315,12,7,3.5833333333333335,0.5833333333333334
+jar_5KMQZtgOseRdUN3L0w,Sucré,70115,4,872,"Food, Ice Cream & Frozen Yogurt, Restaurants, Specialty Food, Desserts, Bakeries, Chocolatiers & Shops, Coffee & Tea, Macarons",1,902,57,33,3.473684210526316,0.5789473684210527
+u7uFQCoHFtBKCtbWUm6yZw,Emeril's ,70130,4,1608,"Seafood, Cajun/Creole, Restaurants, American (New)",1,1635,38,22,3.4210526315789473,0.5789473684210527
+mBXxL7776PIpye9GRDLu6Q,Apolline Restaurant,70115,4.5,406,"Restaurants, French, American (New), Breakfast & Brunch",1,422,19,11,3.526315789473684,0.5789473684210527
+iC9Gis3-VspIr8Ox3e2beA,Chophouse New Orleans,70130,4,515,"Bars, Seafood, Wine Bars, Nightlife, American (Traditional), Restaurants, Steakhouses",1,522,19,11,3.473684210526316,0.5789473684210527
+L_P-FSan8ln6Kiybel7Yrw,Baru Bistro & Tapas,70115,4,345,"Latin American, Tapas/Small Plates, Restaurants, Tapas Bars, Caribbean, Salad",1,358,26,15,3.5,0.5769230769230769
+UnQriKTiNsYnyPE3Rt8lTQ,Tableau,70116,4,1087,"Cajun/Creole, Wine Bars, Bars, Nightlife, Food, Restaurants, Southern, Cocktail Bars, Food Delivery Services, Seafood",1,1108,35,20,3.314285714285714,0.5714285714285714
+I0I2mkCOPTYVSLpc8A8VVw,Compère Lapin,70130,4.5,804,"Personal Chefs, Event Planning & Services, Restaurants, Caribbean, American (New), American (Traditional), French",1,827,28,16,3.5,0.5714285714285714
+SdU54YlTaCCFvtcfouoBpQ,Guy's Po Boys,70115,4.5,337,"Specialty Food, Cajun/Creole, Local Flavor, Sandwiches, Food, Restaurants",1,343,21,12,3.5714285714285716,0.5714285714285714
+c3gwn7_ukRwGGIghHLi-UA,Toast,70119,4.5,554,"Breakfast & Brunch, Restaurants",1,566,21,12,3.619047619047619,0.5714285714285714
+hLlDzRaDGN-0SlEWk0xTpQ,Breads on Oak Cafe & Bakery,70118,4.5,388,"Food, Bakeries, Cafes, Restaurants, Vegan",1,401,21,12,3.7142857142857144,0.5714285714285714
+wYdlP6g2y6gK_RmLrPhsGA,Lola's,70119,4,376,"Restaurants, Spanish, Tapas Bars",1,392,21,12,3.5714285714285716,0.5714285714285714
+Q2mR4I8LdkYE-Tw7_-s-vw,Tal's Hummus,70115,4,192,"Restaurants, Mediterranean, Falafel, Middle Eastern",1,200,14,8,3.4285714285714284,0.5714285714285714
+WOdqMURCc0CHXUllPZwpqQ,Cane and Table,70116,4,519,"Bars, Caribbean, Restaurants, Nightlife, Cocktail Bars",1,529,14,8,3.642857142857143,0.5714285714285714
+lTTmtjhLZIj6vWSuIOyxwQ,TM Breads & Pastries,70112,4.5,125,"Bakeries, Sandwiches, Food, Coffee & Tea, Restaurants",1,131,7,4,3.5714285714285716,0.5714285714285714
+IjtQu81tebi_pLWdubVBeA,Gracious Bakery & Cafe,70125,4,114,"Restaurants, Food, Cafes, Bagels, Bakeries",1,118,7,4,3,0.5714285714285714
+I_FKWKPVpGts4q_HzJ-0mQ,"The Ritz-Carlton, New Orleans",70112,4,413,"Hotels & Travel, Venues & Event Spaces, Restaurants, Event Planning & Services, Hotels",1,425,7,4,3.142857142857143,0.5714285714285714
+6a4gLLFSgr-Q6CZXDLzBGQ,Cochon,70130,4,4421,"Cajun/Creole, Seafood, Restaurants",1,4480,90,51,3.577777777777778,0.5666666666666667
+TzkVUJab9Sh0CqDk2sCF-w,Bayona,70112,4,746,"Restaurants, Mediterranean, Salad, American (New), Nightlife, Bars, Gastropubs, Gluten-Free",1,757,30,17,3.466666666666667,0.5666666666666667
+M-6AXSgmDMYcWsF442mzzA,Seither's Seafood,70123,4.5,338,"Seafood, Restaurants",1,348,16,9,3.6875,0.5625
+4WdDY97x4GdMYtyk1KQMnw,Lilly's Cafe,70130,4.5,777,"Cafes, American (Traditional), Vietnamese, Restaurants",1,797,41,23,3.6097560975609757,0.5609756097560976
+hfbZ97Te3T4jeWN6GgsGrQ,Willa Jean,70113,4,2010,"Bakeries, Breakfast & Brunch, Food, Restaurants, Coffee & Tea, Southern, Desserts, Cafes, American (New)",1,2050,50,28,3.54,0.56
+OCzo8T-76iJ_QVB2UX5SEQ,Killer Poboys,70112,4,1006,"American (New), Sandwiches, Food, Cajun/Creole, Restaurants",1,1016,27,15,3.4444444444444446,0.5555555555555556
+S2Ho8yLxhKAa26pBAm6rxA,Creole House Restaurant & Oyster Bar,70130,4,1594,"Cajun/Creole, Seafood, Restaurants, Breakfast & Brunch",1,1611,18,10,3.3333333333333335,0.5555555555555556
+eT1nr9nFklcUg8hefYcQJA,Pyramids Cafe,70125,4,142,"Mediterranean, Middle Eastern, Greek, Restaurants",1,149,18,10,3.5,0.5555555555555556
+_dtlumMepOrZx-k1JEwgWA,Costera,70115,4.5,144,"Restaurants, Spanish, Tapas/Small Plates",1,147,9,5,3.7777777777777777,0.5555555555555556
+htx6Uime2SkiE-zC7hxb-g,Justine,70130,4,313,"Restaurants, Bars, Nightlife, French, Brasseries, Cafes",1,320,9,5,3.7777777777777777,0.5555555555555556
+X7W01ESZV0UybJ859ZnWRQ,Reginelli's Pizzeria,70124,4,120,"Italian, Sandwiches, Restaurants, Pizza",1,123,9,5,3.5555555555555554,0.5555555555555556
+mhrW9O0O5hXGXGnEYBVoag,Jacques-Imo's Cafe,70118,4.5,2406,"Seafood, Cajun/Creole, Restaurants, Vegetarian",1,2449,74,41,3.445945945945946,0.5540540540540541
+6Ty-KKWq6hLZYW8DWEHYvg,Pat O'Brien’s,70116,4,2367,"American (Traditional), Arts & Entertainment, Music Venues, Beer, Wine & Spirits, Cocktail Bars, Restaurants, Bars, Nightlife, Food, Piano Bars",1,2396,56,31,3.482142857142857,0.5535714285714286
+vxLV9tci88Hsr1G01uleag,Slice Pizzeria,70130,4,531,"Cocktail Bars, Bars, Pizza, Italian, Restaurants, Food Delivery Services, American (New), Desserts, Food, Nightlife",1,551,47,26,3.3404255319148937,0.5531914893617021
+5AOkxsg6UJQ_CoJTMBDUmQ,Ralph's on the Park,70119,4,299,"American (New), Restaurants, Cajun/Creole",1,306,20,11,3.45,0.55
+pUlpCJBYR7chLMMUKA5Ydg,The Maison,70116,4,565,"Venues & Event Spaces, Bars, Event Planning & Services, Nightlife, Jazz & Blues, Vegetarian, Cocktail Bars, Restaurants, Music Venues, Dive Bars, Arts & Entertainment",1,572,20,11,3.5,0.55
+ZgmEBmGQbSHj8YZgN2pPLQ,Satsuma Café,70117,4,365,"Breakfast & Brunch, Food, Coffee & Tea, American (New), Juice Bars & Smoothies, Restaurants",1,372,20,11,3.35,0.55
+SBtjW_pKw3XaOKtKAavWZg,Maïs Arepas,70130,4.5,665,"Restaurants, Bars, Latin American, Nightlife, Colombian",1,682,31,17,3.5161290322580645,0.5483870967741935
+GmXC3CBu172Bkb0c6RnO7w,Restaurant R'evolution,70130,4.5,1210,"Event Planning & Services, Hotels, Cajun/Creole, Restaurants, Seafood, Southern, Hotels & Travel",1,1231,31,17,3.5806451612903225,0.5483870967741935
+VVH6k9-ycttH3TV_lk5WfQ,Willie Mae's Scotch House,70119,4.5,3582,"Comfort Food, Restaurants, Southern",1,3633,84,46,3.488095238095238,0.5476190476190477
+2Sgt5ekJ7F785czScIZEYg,Piccola Gelateria,70115,4.5,229,"Restaurants, Gelato, Food, Desserts, Italian, Creperies, Internet Cafes, Cafes, Coffee & Tea",1,239,11,6,3.8181818181818183,0.5454545454545454
+W-LtYDGHDF6j0I_810hzuA,Fiorella's the Original,70122,4.5,124,"American (New), Seafood, Food, Restaurants, Italian",1,133,11,6,3.727272727272727,0.5454545454545454
+MuJBELBk9VXJjH0tryDh1w,El Pavo Real,70125,4,186,"Breakfast & Brunch, Mexican, Restaurants",1,194,11,6,3.272727272727273,0.5454545454545454
+j579drGztc4y1i-5dGFapA,Kim Anh's Noodle House,70123,4,115,"Vietnamese, Restaurants, Food, Noodles",1,121,11,6,3.272727272727273,0.5454545454545454
+TlokHyfEx0HxFYKDkvpdBg,Satsuma Café,70118,4,280,"Food, Bakeries, Restaurants, Breakfast & Brunch, Coffee & Tea",1,283,11,6,3.272727272727273,0.5454545454545454
+06NHXjVHiGKNpZ2XeajVkA,Magasin Vietnamese Cafe,70115,4,295,"Ethnic Food, Specialty Food, Food, Restaurants, Vietnamese",1,308,35,19,3.4,0.5428571428571428
+oCbJpGl8IkH1WdYa25TDBA,Morrow's,70117,4,831,"Burgers, Nightlife, Cajun/Creole, Bars, Restaurants, Seafood",1,856,24,13,3.25,0.5416666666666666
+sMhdwnrxQd8NWPCxLKqG2A,La Crepe Nanou,70115,4,259,"French, Restaurants, Beer, Wine & Spirits, Seafood, Bars, Vegetarian, Nightlife, Creperies, Food, Desserts",1,264,24,13,3.3333333333333335,0.5416666666666666
+RGXb-3iUuaORNWB_nt_RcQ,Galliano Restaurant,70130,4.5,730,"Cajun/Creole, Seafood, Southern, Restaurants",1,737,13,7,3.6153846153846154,0.5384615384615384
+UGefDZNmnBztS0eoXWtHyQ,The Joint,70117,4.5,1335,"Southern, Nightlife, Sandwiches, Barbeque, Restaurants, Bars",1,1359,73,39,3.410958904109589,0.5342465753424658
+9xErhLpjFcoA39AFeN3lUA,Liuzza's By The Track,70119,4.5,274,"Cajun/Creole, Restaurants, Nightlife",1,284,15,8,3.466666666666667,0.5333333333333333
+xfY46Z-nBtX6sZQLxrdxhQ,Tommy's Cuisine,70130,4,329,"Restaurants, Italian, Nightlife, Wine Bars, Bars, Cajun/Creole",1,337,15,8,3.2666666666666666,0.5333333333333333
+x3JvbhU7wIYcpMVCdMMTqw,Frankie & Johnny's,70115,4,325,"Burgers, Beer Bar, Restaurants, Bars, American (Traditional), Nightlife, Seafood, Food",1,335,17,9,3.1176470588235294,0.5294117647058824
+zSqTndm5Alq9dW1PyzbdTA,Grand Isle,70130,4,588,"Seafood, Southern, Food, Live/Raw Food, Restaurants, Desserts, Local Flavor",1,603,19,10,3.210526315789474,0.5263157894736842
+u537LRjJmHI4eqMARsP9ng,Fogo de Chão Brazilian Steakhouse,70130,4,523,"Steakhouses, Restaurants, Brazilian, Seafood",1,540,19,10,3.263157894736842,0.5263157894736842
+kYgMSD2obyOgORgd3RSE_w,Mr John's Steakhouse,70130,4,294,"Seafood, Fitness & Instruction, Hotels, Hotels & Travel, Gyms, Active Life, Event Planning & Services, Restaurants, Steakhouses",1,300,19,10,3.6315789473684212,0.5263157894736842
+isuOwjnrPrr1bRELgQM0aA,Ba Chi Canteen,70118,4,280,"Restaurants, Vietnamese",1,288,19,10,3.3157894736842106,0.5263157894736842
+-VlBFlHwX-Pt6Xyzs9roGw,Superior Seafood & Oyster Bar,70115,4,1581,"Brasseries, Restaurants, Cajun/Creole, Seafood",1,1627,59,31,3.406779661016949,0.5254237288135594
+DkVFvHGyNBGuPMzI9Zdt1A,Dat Dog,70115,4,598,"Comfort Food, American (New), Fast Food, Hot Dogs, American (Traditional), Restaurants",1,611,63,33,3.365079365079365,0.5238095238095238
+fusQg9Pj0xUC8CzbO2IHrA,CC's Coffee House,70116,4,195,"Coffee & Tea, Food, Restaurants",1,202,21,11,3.380952380952381,0.5238095238095238
+V9VLhHdSFpFi4yXFqVcVEA,Pêche,70130,4,1926,"Seafood, Restaurants",1,1956,46,24,3.369565217391304,0.5217391304347826
+g-IXI3v3fOudMsyLPKb-eQ,Ruby Slipper Cafe,70116,4,983,"Cafes, American (New), Food, Restaurants, Breakfast & Brunch, Nightlife, Bars, Cocktail Bars, American (Traditional), Coffee & Tea",1,999,25,13,3.2,0.52
+l5cKnwfmnaG4QRZl7ZyNuA,Ancora,70115,4,224,"Cocktail Bars, Pizza, Bars, Nightlife, Restaurants",1,232,25,13,3.48,0.52
+WXgV2lOUgas7DzTLeDau-w,The Rum House,70115,4,1599,"Cocktail Bars, Tacos, Restaurants, Food, Caribbean, Tapas/Small Plates, Bars, Nightlife, Mexican",1,1631,79,41,3.4177215189873418,0.5189873417721519
+75FY8ZQx5nOWP0VFmNvWfw,Atchafalaya Restaurant,70115,4.5,2037,"Seafood, Breakfast & Brunch, American (New), Bars, Southern, Restaurants, Cajun/Creole, Nightlife",1,2083,54,28,3.425925925925926,0.5185185185185185
+8kh6Z3c8UHQKmsy0_TbOnA,Carmo,70130,4.5,1164,"Asian Fusion, Vegetarian, Vegan, Seafood, Restaurants, Brazilian, Latin American, Caribbean",1,1188,35,18,3.4,0.5142857142857142
+8uF-bhJFgT4Tn6DTb27viA,District Donuts Sliders Brew,70130,4.5,2062,"Food, Donuts, Burgers, American (Traditional), Coffee & Tea, Restaurants",1,2110,83,42,3.5180722891566267,0.5060240963855421
+oFbwMxqaCJfIzAEmwaXD3Q,Johnny Sanchez,70112,4,944,"Restaurants, Mexican, Bars, Nightlife",1,964,42,21,3.2857142857142856,0.5
+FaY_9x8ZtsuHe5wS2iJM1Q,Verti Marte,70195,4,1309,"Restaurants, Convenience Stores, Grocery, Sandwiches, Food, Delis, Shopping, Beer, Wine & Spirits, Tobacco Shops, Breakfast & Brunch, Salad",1,1354,42,21,3.2857142857142856,0.5
+7CRox7xpb3vNCEe7FZ6zgA,High Hat Cafe,70115,4,560,"Soul Food, Burgers, Nightlife, Bars, Restaurants, Southern, Seafood",1,590,42,21,3.380952380952381,0.5
+UeYZgcORV2Veo_BZzdiaTg,Napoleon House,70130,4,1335,"Cocktail Bars, American (Traditional), Party & Event Planning, Nightlife, Cafes, Bars, Restaurants, Event Planning & Services, Salad, Sandwiches",1,1354,36,18,3.138888888888889,0.5
+CG1Bb2MTraJYTHCPFm72XA,Red Dog Diner,70115,4.5,800,"American (New), Restaurants, Breakfast & Brunch, Bars, Nightlife, Diners, Cocktail Bars",1,824,34,17,3.411764705882353,0.5
+Gfegg1vwKJJo-EfEujQ-nw,Parasol's,70130,4,546,"American (Traditional), Cajun/Creole, Seafood, Restaurants, Irish, Barbeque, Nightlife, Bars, Southern, Sandwiches",1,583,26,13,3.269230769230769,0.5
+g04aAvgol7IW8buqSbT4xA,Cafe Fleur De Lis,70116,4,1865,"Breakfast & Brunch, Coffee & Tea, Food, Restaurants",1,1891,24,12,3.125,0.5
+HUcjSm1Lxdn8zSu-hQ7-sw,Cafe Degas,70119,4,352,"Cafes, Restaurants, Diners, French, Breakfast & Brunch",1,360,24,12,3.5416666666666665,0.5
+A0DYN5wxygYnX_sL3HygvA,Gris-Gris,70130,4.5,491,"Southern, Comfort Food, Restaurants, Cajun/Creole, Seafood",1,509,22,11,3.3636363636363638,0.5
+BS7OnkMycH8tD3Bqpz2FAQ,HiVolt Coffee,70130,4,297,"Cafes, Juice Bars & Smoothies, Restaurants, Food, Coffee & Tea, Bakeries",1,303,20,10,3.45,0.5
+rnXMM1jS9BMFabndBC-bkw,Reginelli's Pizzeria,70115,4,154,"Sandwiches, Pizza, Restaurants, Italian",1,157,16,8,3.125,0.5
+8eDkw7CE0NKqMknPIu26fw,Two Chicks Cafe,70130,4.5,888,"Breakfast & Brunch, Juice Bars & Smoothies, Restaurants, Food, American (New)",1,897,14,7,3.2142857142857144,0.5
+JHyxZ_rhJ2DziKQ9BDsLtQ,Fullblast Brunch,70119,4.5,208,"American (New), Breakfast & Brunch, Restaurants",1,211,12,6,3.25,0.5
+QLUUaTj034zYVWiVl9tNvA,Café at The Square,70130,4,293,"Restaurants, American (Traditional)",1,301,10,5,3.5,0.5
+vfmHUg7jWnfzLb90vcuLSg,Galatoire's 33 Bar & Steak,70112,4,217,"Bars, Nightlife, Steakhouses, Restaurants",1,221,10,5,3.4,0.5
+drjkRW6oC2Fulpr9KaYWEg,New China,70130,4,101,"Chinese, Food, Restaurants",1,104,10,5,3.2,0.5
+7gtWQMLOEwCxh1I5j6uB4g,St. James Cheese Company | Warehouse District,70130,4.5,308,"Specialty Food, Cheese Shops, Food, Sandwiches, Restaurants",1,313,8,4,3.375,0.5
+MqFQqNhMRaizyVRwsea6EA,Bratz Y'all!,70117,4.5,176,"German, Restaurants, Bakeries, Beer Gardens, Food, Nightlife",1,181,8,4,3.5,0.5
+aROhaLh-dqtt-h6BG-gn2w,Tout De Suite Cafe,70114,4.5,212,"Food, Restaurants, Breakfast & Brunch, Coffee & Tea",1,218,8,4,3.375,0.5
+s688oKDwUayG5rjHbPwK7w,Two Tony's Restaurant,70124,4,110,"Specialty Food, Caterers, Restaurants, Seafood, Italian, Seafood Markets, Food, Event Planning & Services",1,117,8,4,3.375,0.5
+mpTKUG5U7rq2yYP7u3719w,Lakeview Pearl,70124,4,134,"Restaurants, Asian Fusion, Sushi Bars",1,140,8,4,3.375,0.5
+oe-iacnzvyHV8zxaNqCf7A,Coterie Restaurant & Oyster Bar,70130,4,718,"Restaurants, Breakfast & Brunch, Southern, Cajun/Creole",1,730,8,4,3.75,0.5
+tJhIqLwZnbBl5FKIChEIQA,CellarDoor,70113,4,222,"Bars, Cocktail Bars, Gastropubs, Event Planning & Services, American (Traditional), Restaurants, Venues & Event Spaces, Nightlife",1,229,8,4,3.5,0.5
+ujYhU3bX35BCVj1NUbSQpQ,Hey! Café & Coffee Roastery,70119,4,138,"Coffee Roasteries, Restaurants, Breakfast & Brunch, Food, Coffee & Tea",1,141,8,4,3.5,0.5
+rQgvzje411OZY2p9fLdycQ,Copper Monkey Grill,70130,4,320,"American (Traditional), Bars, Nightlife, Dive Bars, Restaurants, Food Delivery Services, Food",1,326,8,4,3.375,0.5
+YNjyv0gfOr2g8lbmUpTnKg,Copper Vine,70112,4.5,350,"Nightlife, Pubs, Event Planning & Services, Wine Bars, Bars, Gastropubs, Restaurants, Venues & Event Spaces",1,355,6,3,3,0.5
+tWoJMHMU-KUEeOFAcpENdg,Union Ramen,70130,4.5,152,"Japanese, Ramen, Restaurants",1,156,6,3,4,0.5
+ujM10t6IRJGA2I5mYpd8XQ,El Taco Loco,70118,4.5,124,"Tacos, Restaurants, Mexican",1,126,6,3,3.3333333333333335,0.5
+AZ42H2kk4JUiskC9NPoUjw,Hobnobber's Variety Bar & Restaurant,70130,4.5,474,"Bars, Cajun/Creole, Nightlife, American (Traditional), Restaurants",1,481,6,3,3.3333333333333335,0.5
+R6YhZypd362pEJvl1jN0EA,House of Blues Restaurant & Bar,70130,4,165,"Restaurants, American (New), Burgers, Southern",1,167,6,3,2.8333333333333335,0.5
+AWnzFqIrlkLAKTc46_zmEg,Mena's Palace,70130,4,337,"Restaurants, Southern, Cajun/Creole, Seafood, Breakfast & Brunch",1,347,6,3,2.8333333333333335,0.5
+3NNRlx0GS0mzrTYCx8m8FQ,Gianna Restaurant,70130,4,162,"Wine Bars, Nightlife, Bars, Italian, Restaurants, Beer Bar",1,165,6,3,3.3333333333333335,0.5
+YrCOY3MmbmLKRJLblmSEgw,Killer Poboys,70112,4,485,"Restaurants, Sandwiches, Vegetarian, American (New)",1,488,6,3,3.3333333333333335,0.5
+R6P3KSFafpKz6bEtHsWz1A,Trilly Cheesesteaks,70115,4,114,"Restaurants, Pop-Up Restaurants, Vegan, Cheesesteaks, American (New), Desserts, Sandwiches, Food",1,117,6,3,2.8333333333333335,0.5
+t9LiapsQABwMQeiF1Czl6w,Port Of Call,70116,4,1703,"Bars, Restaurants, Nightlife, Steakhouses, Burgers",1,1739,63,31,3.3015873015873014,0.49206349206349204
+wVrJOXjRrPKIfZbNnrl3ow,Pizza Delicious,70117,4,678,"Pizza, Restaurants, Italian",1,711,55,27,3.327272727272727,0.4909090909090909
+gzMlFR9ViVCr_HUYPgqqVg,Sylvain,70130,4,1151,"Restaurants, Bars, Southern, Nightlife, Gastropubs, American (New), Cocktail Bars",1,1171,41,20,3.2195121951219514,0.4878048780487805
+Vnob_w_Aohf7ZDqxcJ9z2A,Mint Modern Vietnamese Bistro & Bar,70115,4,403,"Bars, Restaurants, Food, Nightlife, Vietnamese, Bubble Tea",1,422,33,16,3.3333333333333335,0.48484848484848486
+_ab50qdWOk0DdB6XOrBitw,Acme Oyster House,70130,4,7568,"Live/Raw Food, Seafood, Restaurants, Cajun/Creole",1,7673,120,58,3.158333333333333,0.48333333333333334
+EagkHaaC-kUozD3MPzbRIw,Stanley,70116,4,2406,"Breakfast & Brunch, Food, Restaurants",1,2440,56,27,3.3214285714285716,0.48214285714285715
+ku8cAVBLaF_4rI-yK6gNnQ,Brennan's,70130,4,1598,"Cajun/Creole, Restaurants",1,1622,25,12,3.32,0.48
+hJhqAfuv2n6W6DUwhVjaIw,Sushi Brothers,70130,4,280,"Japanese, Sushi Bars, Restaurants",1,288,25,12,3.2,0.48
+PGd06nrseC2YAIqP6S9gUA,Ruby Slipper Cafe,70112,4,2159,"American (New), Breakfast & Brunch, Restaurants, Cafes",1,2176,23,11,3.347826086956522,0.4782608695652174
+aH3xlewNKQk5K4mEko6qQQ,Midway Pizza,70115,4,339,"Restaurants, Pizza",1,352,42,20,3.4285714285714284,0.47619047619047616
+BHnCAV4_hgqgNZGdfXNJkA,Cajun Seafood,70116,4,981,"Food, Cajun/Creole, Seafood Markets, Seafood, Specialty Food, Restaurants, French",1,996,21,10,3.380952380952381,0.47619047619047616
+VaO-VW3e1kARkU9bP1E7Fw,Felix's Restaurant & Oyster Bar,70130,4,3966,"Restaurants, Sandwiches, Seafood, Cajun/Creole",1,4034,61,29,3.2950819672131146,0.47540983606557374
+iJiNZw2TEwB579dr6LyVZQ,Cooter Brown's,70118,4,496,"Pubs, Whiskey Bars, Sandwiches, Sports Bars, American (Traditional), Seafood, Restaurants, Nightlife, Bars",1,528,38,18,3.3421052631578947,0.47368421052631576
+2MHNvEPEGxvBxZLXM5ESpg,Pho Bistreaux,70118,4.5,268,"Restaurants, Food, Vietnamese",1,279,19,9,3.3684210526315788,0.47368421052631576
+3fVYGQr_ldW2_1QlXJjpaQ,The Bombay Club,70112,4,510,"Arts & Entertainment, Southern, Cajun/Creole, Nightlife, Jazz & Blues, Bars, Breakfast & Brunch, American (Traditional), Restaurants",1,521,19,9,3.4210526315789473,0.47368421052631576
+b92dSNftvCSPWLC4ZgNXCg,Sammy's Food Service & Deli,70122,4,198,"Seafood, Meat Shops, Food, Specialty Food, Southern, Restaurants, Breakfast & Brunch, Cajun/Creole, American (Traditional), Event Planning & Services, Caterers",1,209,19,9,3.2105263157894735,0.47368421052631576
+t1qF12NdW8KvCqxqbvy-Hg,Cafe Envie & Espresso Bar,70116,4,447,"Breakfast & Brunch, Tapas Bars, Bagels, Restaurants, Food, Coffee & Tea",1,453,17,8,3.2941176470588234,0.47058823529411764
+WqteSM1GLr8FXefQcIqT5w,The Italian Barrel,70116,4,488,"Personal Chefs, Nightlife, Event Planning & Services, Bars, Italian, Wine Bars, Restaurants",1,500,17,8,3.0588235294117645,0.47058823529411764
+QNq_X4ImJkPKyVll_k6ViQ,Del Fuego,70115,4,238,"Food, Ethnic Food, Restaurants, Mexican, Specialty Food",1,248,17,8,3.4705882352941178,0.47058823529411764
+h2DidMy9Q9qyGlQ5xaecMA,Poke Loa,70115,4,238,"Japanese, Poke, Seafood, Hawaiian, Food, Gluten-Free, Restaurants",1,241,17,8,3.2941176470588234,0.47058823529411764
+3aCIpZgIeDwB1uQBAaPbKQ,French Truck Coffee,70115,4.5,246,"Food, Cafes, Restaurants, Coffee & Tea",1,256,15,7,3.2666666666666666,0.4666666666666667
+lWPQeVAZInbNntRu6eFkbg,Louisiana Pizza Kitchen,70116,4,519,"Restaurants, Salad, Pizza, Italian, Vegan",1,532,15,7,3.4,0.4666666666666667
+qF8jkN4q4SajC4p4nKwjgQ,Mona Lisa Restaurant,70116,4,477,"Restaurants, Pizza, Italian, French",1,490,15,7,3.466666666666667,0.4666666666666667
+ChlcxTEoWBQJXJ2Xb2vm5g,NOLA Restaurant,70130,4,2417,"Cajun/Creole, American (New), Southern, Restaurants",1,2450,43,20,3.4651162790697674,0.46511627906976744
+8ASzjS3ITg5bQSyObsCx5w,Russell's Marina Grill,70124,4,309,"Breakfast & Brunch, Restaurants, Seafood, Burgers, American (Traditional)",1,328,28,13,3.2857142857142856,0.4642857142857143
+uyfOQql0ZGMG4WEIwUeeEQ,Nolé,70130,4,240,"Cajun/Creole, Mexican, Event Planning & Services, Restaurants, Venues & Event Spaces, Latin American",1,249,13,6,3,0.46153846153846156
+JhpRI9m71ybWHkAqRdL0Tg,The Avenue Pub,70130,4,450,"Bars, Beer Gardens, Pubs, French, Mediterranean, Nightlife, Southern, Restaurants",1,466,24,11,3.083333333333333,0.4583333333333333
+EBonJ5tjkxBEUezwosVlLg,Mojo Coffee House,70130,4,335,"Food, Coffee & Tea, Juice Bars & Smoothies, Restaurants, Vegetarian",1,355,24,11,3.2083333333333335,0.4583333333333333
+C26xmwM2_OgJJi2BbL3KkQ,Dickie Brennan's Steakhouse,70130,4,954,"Restaurants, Cajun/Creole, Steakhouses, Seafood, Local Flavor",1,973,24,11,3.2083333333333335,0.4583333333333333
+OjXIRs2Gm4H6hWo4bC7Qvg,The Jazz Playhouse,70130,4.5,268,"American (New), Jazz & Blues, Arts & Entertainment, Hotels, Restaurants, Event Planning & Services, American (Traditional), Hotels & Travel, Nightlife",1,274,11,5,3.4545454545454546,0.45454545454545453
+rUxxJi1tlSljiY_kTasUKA,Cafe Negril,70116,4,292,"Nightlife, Arts & Entertainment, Mexican, Jazz & Blues, Bars, Restaurants, Music Venues",1,301,11,5,3.4545454545454546,0.45454545454545453
+oDETvkVkHw7CjZj7ZOZFOQ,Cajun Mike's Pub & Grub,70112,4,757,"Pubs, Cajun/Creole, Restaurants, Sandwiches, Bars, Nightlife",1,766,11,5,3.1818181818181817,0.45454545454545453
+sZ6ZdSNinpgOfdq0k7fJiw,Dragon King,70125,4,106,"Restaurants, Chinese",1,110,11,5,3,0.45454545454545453
+UbFkHiEt9S-0mUL3RQ5Ghg,Turkey and the Wolf,70130,4.5,652,"Bars, Food, Cocktail Bars, Restaurants, Desserts, Nightlife, Sandwiches",1,669,20,9,3.25,0.45
+YwezxSSXcrT5GOTI5MddPg,Casamento's Restaurant,70115,4,330,"Seafood, Restaurants",1,346,20,9,3.35,0.45
+slzazSp3F_HhT-bTpw970g,Who Dat Coffee Cafe,70117,4.5,453,"Cafes, Restaurants, Internet Cafes, Sandwiches, Seafood, Food, Coffee & Tea, Breakfast & Brunch",1,470,18,8,3.4444444444444446,0.4444444444444444
+RQpOPNHJReRnrsCD-2qEoA,Mid City Pizza,70119,4,209,"Restaurants, Pizza",1,218,18,8,2.9444444444444446,0.4444444444444444
+yTJ2Ir6CMBzThLK5dmACvQ,Monkey Monkey Coffee and Tea,70119,4.5,155,"Breakfast & Brunch, Food, Restaurants, Coffee & Tea, Salad, Cafes, Sandwiches",1,160,9,4,2.888888888888889,0.4444444444444444
+aPs-Pf4_CLWcFQcMnbfcUw,WINO  Wine Institute of New Orleans,70130,4.5,235,"Wineries, Arts & Entertainment, Beer, Wine & Spirits, Education, Bars, Nightlife, Specialty Schools, Restaurants, Food, Wine Tasting Room, Wine Bars",1,241,9,4,3.4444444444444446,0.4444444444444444
+UH1Baremef79qGhPQ0Ef3A,Maple Street Cafe,70118,4,101,"Restaurants, Cafes, American (New)",1,102,9,4,3,0.4444444444444444
+FQJ4ph8e1SMz5YWsdH2m8Q,Mr. Ed's Oyster Bar - St Charles Ave,70130,4,291,"Restaurants, Southern, Italian, Seafood, Bars, Steakhouses, Cajun/Creole, Nightlife",1,299,9,4,3.2222222222222223,0.4444444444444444
+dju1isgEvDd74tLTDkk5DA,Gautreau's Restaurant,70115,4,188,"Cajun/Creole, Restaurants, American (New)",1,196,9,4,3.2222222222222223,0.4444444444444444
+AubKobiTtnvsjM7NEMmMdQ,The Bulldog Mid City,70124,4,130,"Bars, Restaurants, Nightlife, Pubs",1,137,9,4,3,0.4444444444444444
+3db1R99-mdSvx3QwryJSNQ,The Camellia Grill,70118,4,1007,"Sandwiches, Restaurants, Breakfast & Brunch, Burgers, American (Traditional)",1,1028,43,19,3.116279069767442,0.4418604651162791
+iJepNTdQh-vOBoIzmx-Kmg,Cure,70115,4,454,"Bars, American (New), Restaurants, Nightlife, Cocktail Bars, Tapas/Small Plates",1,465,32,14,3.3125,0.4375
+Fj16uG6BNZOq5K8mS2HHiQ,Ming's,70124,4,192,"Restaurants, Chinese",1,204,16,7,3,0.4375
+W4ZEKkva9HpAdZG88juwyQ,Mr. B's Bistro,70130,4,2064,"Bars, Breakfast & Brunch, Restaurants, Barbeque, Cajun/Creole, Cafes, Cocktail Bars, Nightlife",1,2116,46,20,3.369565217391304,0.43478260869565216
+cTSczU-9-cYUEM2DlNJcQw,1000 Figs,70119,4.5,311,"Falafel, Mediterranean, Middle Eastern, Restaurants, Cafes, Greek, Vegetarian",1,322,14,6,3.5,0.42857142857142855
+VCjvaX_78oEKG3I9oTJEag,Fair Grinds Coffee House,70119,4,161,"Coffee & Tea, Restaurants, Food",1,170,14,6,3.357142857142857,0.42857142857142855
+ALjOBKvlyT-lcLFihD4P8g,Turtle Bay,70116,4,278,"Burgers, Dive Bars, Pizza, Nightlife, Restaurants, Bars",1,281,14,6,3,0.42857142857142855
+OPW8NuOC_9FVFXsaHOO5JA,District Donuts Sliders & Brew Lakeview,70124,4,196,"Restaurants, Donuts, Breakfast & Brunch, Coffee & Tea, Waffles, American (Traditional), Juice Bars & Smoothies, Food, Burgers",1,201,14,6,2.9285714285714284,0.42857142857142855
+k1yDRDZ4QCvNW9Wm9-IOaA,Bennachin Restaurant,70116,4,430,"African, Restaurants, Soul Food, Vegetarian",1,438,14,6,3,0.42857142857142855
+Q_Wo3rX84Dy-YdQsiDmrWw,Chickie Wah Wah,70119,4,126,"Jazz & Blues, Italian, Arts & Entertainment, Restaurants, Nightlife, Cajun/Creole, Music Venues",1,135,7,3,2.857142857142857,0.42857142857142855
+zI0OdjkdQqD7az8aM6ppdg,Cho Thai,70115,4,113,"Restaurants, Thai",1,117,7,3,2.857142857142857,0.42857142857142855
+oBNrLz4EDhiscSlbOl8uAw,Ruby Slipper - New Orleans,70130,4.5,5193,"Restaurants, American (Traditional), American (New), Cafes, Breakfast & Brunch",1,5264,64,27,3.09375,0.421875
+MH2l4IMyrNyS-E4AfxbrIA,Chill Out Cafe,70118,4,168,"Salad, Breakfast & Brunch, Thai, Restaurants",1,172,19,8,3,0.42105263157894735
+3DKGhJXrqhVOQGFNiSp9Vg,Avenue Cafe,70130,4,219,"Food, Breakfast & Brunch, Cafes, Juice Bars & Smoothies, Restaurants, Sandwiches, Coffee & Tea",1,229,19,8,3.1578947368421053,0.42105263157894735
+fKAxmycMFwO9qWVUAOQzOw,G's Pizza,70119,4,292,"Bars, Beer, Wine & Spirits, Pizza, Italian, Gluten-Free, Wine Bars, Nightlife, Vegan, Mediterranean, Restaurants, Salad, Event Planning & Services, Sandwiches, Caterers, Specialty Food, Food, Pasta Shops, Food Delivery Services",1,311,19,8,3.0526315789473686,0.42105263157894735
+3nYIq4THGUOgQCAF-mkd7w,Mayas,70130,4,258,"Latin American, Restaurants, Cuban, Event Planning & Services, Mexican, Spanish, Caribbean, Venues & Event Spaces, Cajun/Creole",1,263,19,8,2.8421052631578947,0.42105263157894735
+8UPv1p9GW-BiZtQqUt8nOA,Neyow's Creole Cafe,70119,4,1646,"Seafood, Cajun/Creole, Restaurants",1,1706,36,15,3.0277777777777777,0.4166666666666667
+8jXmNMrGJ2acUG1R-D5e6w,Dat Dog,70115,4,543,"Food, American (Traditional), Hot Dogs, Cajun/Creole, Comfort Food, American (New), Restaurants",1,559,24,10,3.2916666666666665,0.4166666666666667
+M0YuK7sLLSA3TfBC4UkUzg,Croissant D'Or Patisserie,70116,4,576,"Restaurants, Bakeries, Food, Coffee & Tea, Patisserie/Cake Shop",1,588,24,10,3.125,0.4166666666666667
+4-vRC6g1LOXyXXe4EfxBwg,Manchu Food Store & Chinese Kitchen,70116,4.5,190,"Seafood, Grocery, Food, Restaurants, Chicken Wings",1,193,12,5,3.25,0.4166666666666667
+bkxtuHXCL7GR51FiNdextA,City Greens,70112,4,122,"Sandwiches, Breakfast & Brunch, Restaurants, Vegetarian, Salad",1,126,12,5,2.9166666666666665,0.4166666666666667
+7D5-a53BLau19RpMu-L3zg,Beachbum Berry's Latitude 29,70130,4,389,"Hawaiian, Tiki Bars, Gastropubs, Bars, Nightlife, Restaurants, Cocktail Bars",1,404,12,5,2.8333333333333335,0.4166666666666667
+mq8iNBD77TP6eWfFIQO5rQ,Martin Wine Cellar,70115,4,102,"Breakfast & Brunch, Food, Cheese Shops, Restaurants, Beer, Wine & Spirits, Specialty Food, Sandwiches, American (New), Delis",1,109,12,5,3.5833333333333335,0.4166666666666667
+eLjXnfYwkr8zz0VhwMhOGw,Pizza Domenica,70115,4,419,"Italian, Pizza, Restaurants",1,432,41,17,3.1219512195121952,0.4146341463414634
+3wo9jODQnuvBm8Gkem6qXg,Ruby Slipper Cafe,70119,4,904,"American (New), American (Traditional), Nightlife, Southern, Cocktail Bars, Coffee & Tea, Breakfast & Brunch, Food, Restaurants, Cafes, Bars",1,923,29,12,3.2758620689655173,0.41379310344827586
+U4X-tzwvTzW8uWxs2KIPtg,The Original Pierre Maspero's,70130,4,1886,"Seafood, Restaurants, Cajun/Creole, Sandwiches, Breakfast & Brunch",1,1915,34,14,3.4411764705882355,0.4117647058823529
+z0MXYel0okwMqLjgMkKD2A,St Roch Market,70117,4.5,610,"Salad, Farmers Market, Specialty Food, American (Traditional), Seafood, Food Court, Nightlife, Food, American (New), Restaurants, Bars",1,614,22,9,3.3181818181818183,0.4090909090909091
+SI3q166YxgbxzQxMfpiWjQ,Bayou Hot Wings,70125,4,288,"Burgers, Fast Food, Restaurants, Chicken Wings",1,297,22,9,3.227272727272727,0.4090909090909091
+AhVvuzwWQU__CligbY4r0Q,Juan's Flying Burrito,70130,4,794,"Restaurants, Mexican, Mass Media, Cajun/Creole",1,815,57,23,3.1578947368421053,0.40350877192982454
+uR7G8I4Cef9D9R340TN24Q,Trenasse,70130,4,1059,"American (New), American (Traditional), Southern, Taiwanese, Seafood, Bars, Nightlife, Cocktail Bars, Live/Raw Food, Wine Bars, Cajun/Creole, Restaurants",1,1076,20,8,2.85,0.4
+MIKYzWkBnbo3YUhqZUWlEw,Crescent City Pizza Works,70130,4.5,439,"Pizza, Restaurants, Sandwiches",1,448,15,6,3.1333333333333333,0.4
+BfAYvF-GsCljAFNRmuP3lg,Bywater American Bistro,70117,4.5,181,"Cocktail Bars, American (New), Bars, Restaurants, Breakfast & Brunch, Nightlife, Diners",1,184,10,4,3.5,0.4
+joCDK7kg-03uo4rZK5X0_A,Cherry Coffee Roasters,70115,4.5,127,"Food, Coffee & Tea, Cafes, Juice Bars & Smoothies, Coffee Roasteries, Restaurants, Breakfast & Brunch",1,128,10,4,3.2,0.4
+lNXAV6t34fqAdGa3MrDxkg,Attiki Bar and Grill,70130,4,335,"Middle Eastern, Bars, Greek, Mediterranean, Hookah Bars, Nightlife, Restaurants",1,342,10,4,2.6,0.4
+Tv5gLZyjnMuEpLvdbE5wGw,Rosedale,70124,4,135,"Cocktail Bars, Bars, Home Services, Restaurants, Nightlife, American (Traditional), Real Estate, Apartments",1,138,10,4,3.1,0.4
+hdsSqJ6XotB8LUyWjM0LKQ,Poke-chan,70117,4.5,134,"Food, Hawaiian, Restaurants, Poke, Japanese",1,138,5,2,3.2,0.4
+Q1hBOIqr_p6MRnMLawz6cA,True Food Kitchen,70130,4.5,172,"Restaurants, Vegetarian, Vegan, American (New)",1,175,5,2,3.2,0.4
+1klQuTKmJr-eMQPuFaQ5fg,Anatolia Mediterranean Cuisine,70115,4.5,133,"Mediterranean, Turkish, Restaurants",1,136,5,2,3.2,0.4
+NgEy0AX40Yg4Bpon61wbEg,Pagoda Cafe,70119,4.5,177,"Breakfast & Brunch, Restaurants, Cafes",1,180,5,2,3.2,0.4
+7dLQkwWU2fRqTlvplg0iMw,Revelator Coffee New Orleans,70130,4,223,"Coffee & Tea, Restaurants, Food, Cafes",1,226,5,2,3.2,0.4
+6fYIlInL937IBuHmocfiBA,Silk Road,70117,4,183,"Restaurants, Mediterranean, Cajun/Creole, Indian, Wine Bars, Bars, Asian Fusion, Nightlife, Middle Eastern",1,187,5,2,2.6,0.4
+tk2kG_HL54lqiue6-pXQdQ,Messina's Runway Cafe,70126,4,111,"Breakfast & Brunch, Cafes, Restaurants",1,115,5,2,2.8,0.4
+Z4qfMpj8jymG3_XjTBKN0A,Felipe's Mexican Taqueria - Uptown,70125,4,341,"Cocktail Bars, Mexican, Nightlife, Bars, Vegetarian, Restaurants",1,366,43,17,3.1627906976744184,0.3953488372093023
+aLsbsBbaJzYw3chcdQlCIw,Central City BBQ,70113,4,378,"Caterers, Pubs, Barbeque, Event Planning & Services, Restaurants, Venues & Event Spaces, Bars, Nightlife",1,399,33,13,2.8484848484848486,0.3939393939393939
+pllvqx8yMnLnQVFjj3oYGg,Venezia Restaurant,70119,4,268,"Italian, Restaurants, Salad, Pizza",1,281,23,9,3.0869565217391304,0.391304347826087
+V1XS9HMe9bzEuW4RZFycBA,SukhoThai,70117,4,349,"Vegan, Restaurants, Asian Fusion, Thai",1,361,18,7,3.0555555555555554,0.3888888888888889
+6RDGvdukSq3YHPYvG8sIEQ,Brown Butter Southern Kitchen & Bar,70119,4,401,"Nightlife, Bars, American (Traditional), Breakfast & Brunch, American (New), Southern, Soul Food, Restaurants",1,411,18,7,2.9444444444444446,0.3888888888888889
+fpi78UyYCZ-RSoibWc-NDg,La Macarena Pupuseria & Latin Cafe,70118,4,346,"Restaurants, Latin American, Caribbean, Tapas Bars, Vegan, Breakfast & Brunch, American (Traditional), Comfort Food, Gluten-Free, Vegetarian",1,353,18,7,3,0.3888888888888889
+e-fXMT8R3j7BKMTh8xn8aw,Red's Chinese,70117,4,384,"Restaurants, Food, Chinese",1,403,31,12,2.903225806451613,0.3870967741935484
+JvawJ9bSr22xn4R9oLvl_w,Desire Oyster Bar,70130,4,1084,"Southern, Event Planning & Services, Restaurants, Cajun/Creole, Seafood, Live/Raw Food, Hotels & Travel, Hotels",1,1098,26,10,3.269230769230769,0.38461538461538464
+PC62l488ujL8i75jrBiOlg,Blue Giant,70130,4,182,"Desserts, Food, Noodles, Chicken Shop, Chinese, Restaurants",1,194,13,5,3.3846153846153846,0.38461538461538464
+Bt7NBqA31uOI4H_hvasLLg,HORN'S EATERY,70116,4,597,"Caterers, Venues & Event Spaces, Breakfast & Brunch, Gastropubs, American (New), Restaurants, Food, Event Planning & Services, Bars, Cocktail Bars, Seafood, Nightlife",1,611,21,8,2.9523809523809526,0.38095238095238093
+nB7LcJIvZr-EbJj4oFZf-A,Daisy Dukes Express,70130,4,707,"Cajun/Creole, Food Delivery Services, Food, American (Traditional), Breakfast & Brunch, Restaurants, Southern",1,718,21,8,2.7142857142857144,0.38095238095238093
+qb28j-FNX1_6xm7u372TZA,Gumbo Shop,70116,4,3902,"Cajun/Creole, Seafood, Restaurants",1,3971,56,21,3.107142857142857,0.375
+miRxzEzV7OIShLQ5x_Lvvg,Domilise Po-Boys & Bar,70115,4,577,"Nightlife, Beer Bar, Bars, Barbeque, Sandwiches, Restaurants, Seafood",1,590,24,9,2.875,0.375
+xxlbRiWWQkk-6LST3Hd12g,The Backyard,70124,4,203,"Hot Dogs, American (New), Barbeque, Burgers, Chicken Wings, Restaurants",1,209,16,6,3.25,0.375
+qq6vsh6ZEshfv4mTdrjA0g,Magasin Kitchen,70130,4,141,"Imported Food, Food, Specialty Food, Ethnic Food, Restaurants, Vietnamese",1,141,8,3,3,0.375
+7EFbmaCvOjPxC7cb3LMnvA,Cafe Navarre,70124,4,173,"Breakfast & Brunch, American (Traditional), Restaurants, Pizza, Sandwiches",1,182,8,3,2.75,0.375
+BuQGsltd3B4L_HRCP2jpTQ,Joey K's Restaurant & Bar,70115,4,725,"Restaurants, Southern",1,748,35,13,3.2,0.37142857142857144
+kb1Tf4xwb7CQW5OXf9zwqw,Toups Meatery,70119,4,601,"Cajun/Creole, American (New), Restaurants",1,611,27,10,2.8518518518518516,0.37037037037037035
+Y2Pfil51rNvTd_lFHwzb_g,Cafe Beignet on Royal Street,70130,4,2688,"Cafes, Breakfast & Brunch, Food, Restaurants, Coffee & Tea, Local Flavor, Sandwiches, Donuts",1,2722,46,17,3,0.3695652173913043
+kouFQZiu6lK59nxRLP6LsA,Reginelli's Pizzeria,70112,4,281,"Restaurants, Sandwiches, Italian, Pizza",1,285,19,7,3.1052631578947367,0.3684210526315789
+cJyQrgGznIyz8yvyeuaRyg,Bao & Noodle,70117,4,196,"Noodles, Chinese, Restaurants",1,202,19,7,2.6842105263157894,0.3684210526315789
+9CRWWbw3iOo4-9FMAO6nKw,Fat Boy Pantry,70130,4.5,237,"Restaurants, Sandwiches, American (New), Breakfast & Brunch, Coffee & Tea, Food, Cafes, Ice Cream & Frozen Yogurt, Juice Bars & Smoothies, Specialty Food",1,238,11,4,3,0.36363636363636365
+VQcCL9PiNL_wkGf-uF3fjg,Royal House,70130,4,5070,"American (New), Restaurants, Sandwiches, Seafood, Cajun/Creole",1,5146,75,27,2.9733333333333336,0.36
+-Tskf8WK17rb3ZfeFuRSWA,Palace Café,70130,4,1822,"Seafood, Restaurants, Cafes, Cajun/Creole, American (New)",1,1841,50,18,3.12,0.36
+htDRn1cXDyimxz6BJWB3LQ,Josephine Estelle,70130,4,364,"Nightlife, Italian, Restaurants, Cajun/Creole, Pizza, Southern, Bars, Cocktail Bars",1,372,14,5,2.7142857142857144,0.35714285714285715
+ac1AeYqs8Z4_e2X5M3if2A,Oceana Grill,70130,4,7400,"Restaurants, Seafood, Cajun/Creole, Breakfast & Brunch",1,7516,73,26,2.9863013698630136,0.3561643835616438
+zWfzgYe2nT9mHYm_vl1Ukw,Mopho,70119,4,767,"Restaurants, Cocktail Bars, Vietnamese, American (New), Wine Bars, Gastropubs, Asian Fusion, Nightlife, Bubble Tea, Bars, Food",1,790,45,16,3.111111111111111,0.35555555555555557
+-fJPJP7iOd1ukDNqTSINIg,Riccobono’s Panola St. Cafe,70118,4,217,"Burgers, Food, Coffee & Tea, Restaurants, Breakfast & Brunch, Cafes, Salad",1,224,17,6,3.0588235294117645,0.35294117647058826
+yY3kq6_2m1FyY9MgaiHgoQ,Ye Olde College Inn,70118,4,234,"Restaurants, Southern, Cajun/Creole, American (New)",1,242,17,6,3.0588235294117645,0.35294117647058826
+eCikDKFbaeYVNdCD2beX0Q,Dat Dog,70116,4,1038,"Cajun/Creole, American (New), Hot Dogs, Restaurants, Comfort Food",1,1045,26,9,2.8846153846153846,0.34615384615384615
+yz0KWVamNhqiZGz7XTClzg,SoBou,70130,4,1649,"Cocktail Bars, Restaurants, Nightlife, American (New), Cajun/Creole, Juice Bars & Smoothies, Bars, Food",1,1672,35,12,2.942857142857143,0.34285714285714286
+-psZLTe6IJTQUB-bZF7Zyg,Little Korea BBQ,70130,4,423,"Barbeque, Restaurants, Soup, Korean",1,436,30,10,3,0.3333333333333333
+xfmXbvTrtmfGxySJQ2TRXQ,Haiku Sushi,70115,4,181,"Japanese, Restaurants, Sushi Bars",1,184,18,6,2.9444444444444446,0.3333333333333333
+0wZJkj-OnZ7Pmublspl7tA,Vieux Carre Pizza,70130,4,506,"Italian, French, Restaurants, Pizza",1,512,15,5,3.066666666666667,0.3333333333333333
+uvQQlr5ye4ReQTxuyB7kCA,Poseidon,70130,4,198,"Nightlife, Sushi Bars, Karaoke, Restaurants, Seafood",1,200,12,4,3.1666666666666665,0.3333333333333333
+g5ogvPhw3PSobtaZFkdEXg,Bittersweet Confections,70130,4.5,351,"Cupcakes, Caterers, Food, Chocolatiers & Shops, Bakeries, Specialty Food, Breakfast & Brunch, Shopping, Desserts, Restaurants, Event Planning & Services",1,356,9,3,3.111111111111111,0.3333333333333333
+TVDe34aKHkjaEOtCqffwbw,BB King's Blues Club,70116,4,572,"Burgers, Diners, Cajun/Creole, Barbeque, Music Venues, Restaurants, American (Traditional), Nightlife, Arts & Entertainment",1,583,9,3,2.5555555555555554,0.3333333333333333
+7ybQY-BKNvlzEEjIQOkA4g,Seaworthy,70130,4,416,"Cocktail Bars, Nightlife, Restaurants, Seafood, Breakfast & Brunch, Bars, Lounges",1,422,9,3,3.111111111111111,0.3333333333333333
+LG03thDHBO4vRcYZ7g_zmg,Briquette,70130,4,281,"Restaurants, Bars, Seafood, American (New), Cocktail Bars, Nightlife, Modern European, Steakhouses",1,289,9,3,2.888888888888889,0.3333333333333333
+U2fN80Q-QOudDt5V-qjIlw,Piece Of Meat,70119,4.5,118,"Sandwiches, Meat Shops, American (Traditional), Food, Butcher, Restaurants, Specialty Food, American (New)",1,119,6,2,3,0.3333333333333333
+0JmFfcBbIux_vauRNWzD9Q,Alma Cafe,70117,4.5,149,"Restaurants, Breakfast & Brunch, Food, Coffee & Tea, Honduran, Latin American",1,151,6,2,2.5,0.3333333333333333
+EV4f9j7k5P3ItvJAGu5AWA,Rizzutos Ristorante Chop House,70124,4.5,110,"Steakhouses, Restaurants, Italian",1,117,6,2,3.6666666666666665,0.3333333333333333
+OSrZ4BMMXaLSb5sxFpmA-g,La Carreta,70130,4,109,"Restaurants, Mexican",1,111,6,2,3,0.3333333333333333
+if57kE6_VfR1nI1X93oHEA,Sala,70124,4,125,"Seafood, Nightlife, Food, Desserts, Restaurants, American (Traditional), Bars",1,129,6,2,2.8333333333333335,0.3333333333333333
+M2h3vq8WeSiQAmyJtrPvbQ,Emeril's Delmonico,70130,4,751,"Restaurants, American (New), Cajun/Creole, Bars, Steakhouses, American (Traditional), Nightlife",1,762,16,5,3,0.3125
+Udkoo_WdRpHtVAWbALCvjw,Basin Seafood & Spirits,70115,4,515,"Restaurants, Bars, Food, Cajun/Creole, Nightlife, Seafood, Cocktail Bars",1,527,16,5,2.375,0.3125
+gjbmwlYUImb2lQBp5LV3KA,Maypop Restaurant,70113,4.5,596,"Chinese, Restaurants, Thai, Dim Sum, American (New)",1,609,20,6,3.3,0.3
+NHdE_ObFj7OjQBB3jjqBNQ,Lula Restaurant Distillery,70130,4,666,"Food, Distilleries, Restaurants, Cajun/Creole, Southern",1,679,20,6,3,0.3
+ADgeB1sfOGbzCR3LIi-4lg,Cafe Reconcile,70113,4.5,152,"Cajun/Creole, Local Services, Southern, Soul Food, Food, Restaurants, Community Service/Non-Profit, Food Delivery Services",1,154,10,3,3.2,0.3
+Et2yOijYQbWyR-mE0-z40w,Tsunami Sushi,70130,4,340,"Cocktail Bars, Asian Fusion, Restaurants, Bars, Nightlife, Soup, Sushi Bars, Salad",1,352,10,3,2.6,0.3
+SjiRaZoWaDpkCCpq5SsrMw,Union Kitchen & Union Party Room,70130,4,567,"Creperies, Cajun/Creole, Local Flavor, French, Sandwiches, Cafes, Food, Nightlife, Pubs, Breakfast & Brunch, Restaurants, Event Planning & Services, Specialty Food, Venues & Event Spaces, Delis, Bars",1,573,10,3,2.6,0.3
+Trbe4JX-oLHrrVVPcv0wog,Broussard's,70112,4,653,"Seafood, French, Restaurants, Venues & Event Spaces, Event Planning & Services, Cajun/Creole",1,664,17,5,2.9411764705882355,0.29411764705882354
+ga7jZd-JccpMqdSTgY2lUA,Marjie's Grill,70119,4.5,172,"Barbeque, Southern, Pan Asian, Thai, Vietnamese, Asian Fusion, Salad, Restaurants",1,173,7,2,2.4285714285714284,0.2857142857142857
+MyFC2F-5SXwXTLR99UWiqA,The Vintage,70115,4.5,344,"Restaurants, Cafes, Nightlife, Cocktail Bars, Bars, Wine Bars, Coffee & Tea, Food",1,348,7,2,2.857142857142857,0.2857142857142857
+ZapDvyE7lJxVxlmeeKyjkg,Daisy Mae's Southern Fried Chicken & Breakfast,70112,4,267,"Breakfast & Brunch, Comfort Food, Restaurants",1,271,7,2,2.4285714285714284,0.2857142857142857
+Hz0p2RasO5tjll-AdjpJqw,Corporation Bar & Grill,70130,4,185,"Restaurants, Nightlife, Bars, Cajun/Creole",1,188,7,2,2.857142857142857,0.2857142857142857
+RloVMlIr8kP8Sn609loBTg,30/90 NOLA,70116,4,308,"Nightlife, Cocktail Bars, Restaurants, Arts & Entertainment, Bars, Music Venues, American (New), Jazz & Blues",1,313,7,2,2.7142857142857144,0.2857142857142857
+hkO3q6VyMNn7BYUkqgdf2A,A Taste of Thailand Restaurant,70056,4,106,"Thai, Restaurants",1,108,7,2,2.857142857142857,0.2857142857142857
+gnXN6LuSC3IoMCOtRl8sQw,Empire State Delicatessen,70139,4,114,"Restaurants, Caterers, Event Planning & Services, Delis, Sandwiches, Burgers",1,117,11,3,2.6363636363636362,0.2727272727272727
+9kv9JpLhzkN3UeWZDrsmEA,The Country Club,70117,4,558,"Nightlife, Wine Bars, Arts & Entertainment, Cajun/Creole, American (New), Restaurants, Southern, Breakfast & Brunch, Country Clubs, Bars",1,584,16,4,2.5,0.25
+rAMlyZQe5eFrdLRVQfY4ZQ,Buffa's Bar & Restaurant,70116,4,444,"American (Traditional), Lounges, Bars, Burgers, Restaurants, Nightlife",1,460,16,4,2.8125,0.25
+mhj9KWNqKnEAb55-94ZzfA,Live Oak Cafe,70118,4,197,"Restaurants, Sandwiches, Breakfast & Brunch, Arts & Entertainment, Comfort Food, Music Venues, Cafes, Southern, Nightlife",1,201,12,3,2.5833333333333335,0.25
+YjKuwQSJF1ErVYqRufXJMQ,Barracuda,70115,4.5,173,"Tacos, Mexican, Restaurants",1,179,8,2,2.875,0.25
+vT1zrTTIji2JDhUHjFKopg,Laurel Street Bakery,70125,4,111,"Bagels, Sandwiches, Food, Restaurants, Salad, Bakeries",1,115,8,2,2.625,0.25
+uKXw5zfNtNw_eJW2arHLFw,N 7,70117,4,206,"French, Japanese, Tapas/Small Plates, Restaurants, Bars, Wine Bars, Nightlife",1,209,8,2,3.25,0.25
+IZZ_uR2ps5KuuyE0n--jVA,Elizabeth's Restaurant,70117,4,1352,"Nightlife, Southern, Restaurants, Breakfast & Brunch, Bars",1,1379,50,12,2.8,0.24
+qt_E6txwQ1h62wyv8701UQ,Clesi's Restaurant & Catering,70119,4,355,"Event Planning & Services, Food, Restaurants, Seafood, Seafood Markets, Caterers, Specialty Food, Cajun/Creole",1,368,13,3,2.230769230769231,0.23076923076923078
+TLZ3-eDPLhUzfsWO4ad6Ug,Mahony's Po-Boys & Seafood,70112,4,382,"Restaurants, Seafood, Cajun/Creole",1,387,9,2,2.888888888888889,0.2222222222222222
+V1n-wIrt5xtI0VIAxIP5dA,BOIL Seafood House,70115,4,650,"Seafood, Cajun/Creole, Restaurants, Comfort Food",1,664,9,2,2.3333333333333335,0.2222222222222222
+FdoIc2GfFO35OzVVC4fi2w,P & G Restaurant & Bar,70112,4,203,"Restaurants, Cajun/Creole, Breakfast & Brunch, American (Traditional)",1,205,9,2,2.5555555555555554,0.2222222222222222
+c-iKAO2GBzSKjm7y1Oljcw,Red Fish Grill,70130,4,1984,"Seafood, Restaurants, Cajun/Creole",1,2018,40,8,2.9,0.2
+9HvjjSwxxubIhG6E_sObfQ,NOLA Poboys,70116,4,1269,"Cajun/Creole, Restaurants, Sandwiches, Seafood",1,1296,15,3,2.533333333333333,0.2
+RTJiMomkeeDi5LZn0GhxQA,Curio,70130,4,609,"Southern, Italian, Breakfast & Brunch, Cajun/Creole, American (New), Restaurants",1,619,10,2,2.6,0.2
+FlDkxuO6MGrW7x1OJTtJew,Auction House Market,70130,4.5,247,"Shopping, Auction Houses, Coffee & Tea, Food, American (New), Seafood, Food Court, Restaurants, Nightlife, Bars, Cocktail Bars",1,251,5,1,3.2,0.2
+EME5hqQLjBD7e2cLryupbA,Mr Ed's Oyster Bar - Bienville,70130,4.5,1306,"Cajun/Creole, Southern, French, Salad, Restaurants, Nightlife, Seafood, Fish & Chips, Bars",1,1320,11,2,2.8181818181818183,0.18181818181818182
+6xA3Zg26SbaftWvzf6Rn4Q,14 Parishes Jamaican Restaurant,70112,4,147,"Jazz & Blues, Restaurants, Caribbean, Food Court, Soul Food, Food Delivery Services, Food, Arts & Entertainment, Chicken Wings, Bars, Nightlife",1,154,11,2,2.6363636363636362,0.18181818181818182
+dIQGbalj-3I8vixZ4M149g,Molly's Rise and Shine,70130,4.5,153,"Pizza, Diners, Restaurants, Breakfast & Brunch",1,160,6,1,2.5,0.16666666666666666
+jQPg8OKiSVa-fwvd-XGzLQ,Evangeline,70130,4,719,"Bars, American (Traditional), American (New), Burgers, Venues & Event Spaces, Cajun/Creole, Lounges, Cocktail Bars, Nightlife, Seafood, Restaurants, Event Planning & Services",1,725,6,1,1.5,0.16666666666666666
+nePr9450kf-eEGYD-Qn21w,Ruby Slipper Cafe,70130,4,619,"Breakfast & Brunch, Southern, Cafes, Restaurants, American (New)",1,630,13,2,2.4615384615384617,0.15384615384615385
+TvbJq1a1Xto5w6t4zMUYHQ,Vessel NOLA,70119,4,397,"Desserts, Cocktail Bars, Nightlife, Breakfast & Brunch, Bars, Food, Tapas/Small Plates, American (New), Restaurants",1,405,13,2,2.769230769230769,0.15384615384615385
+xJ3NSwE0xhdtA-tB_y_rNQ,Jack Dempsey's Restaurant & Bar,70117,4,168,"Seafood, Restaurants",1,175,14,2,2.7142857142857144,0.14285714285714285
+dfqIU-iEqKh1Id8p3gDO5g,Brothers Food Mart,70130,4,267,"Chicken Wings, Convenience Stores, Grocery, Restaurants, Food",1,269,14,2,2.7142857142857144,0.14285714285714285
+swVdc9piXvG0AXwL-F0GfQ,Gallier Restaurant & Oyster Bar,70112,4.5,819,"Restaurants, Seafood, Cajun/Creole, Breakfast & Brunch, Salad, Southern, American (New)",1,828,7,1,3,0.14285714285714285
+Qo14LZITJ4fIhSdqOVsm6w,Pat O'Brien's Courtyard Restaurant,70130,4,480,"Cocktail Bars, Event Planning & Services, Party & Event Planning, Bars, Nightlife, Cajun/Creole, Restaurants, Venues & Event Spaces",1,485,7,1,2.857142857142857,0.14285714285714285
+zvGNZF827KyzLupKiG4Xtw,Three Legged Dog,70112,4,255,"Restaurants, American (Traditional), Bars, Nightlife",1,263,7,1,2.5714285714285716,0.14285714285714285
+5fCpIolPWznGdz3D6hjrvg,Wakin' Bakin',70119,4,362,"Food, Restaurants, Comfort Food, Salad, Sandwiches, American (Traditional), Breakfast & Brunch, Food Delivery Services, Coffee & Tea",1,371,17,2,2.235294117647059,0.11764705882352941
+4NidY2tw42l6iobbtai_kA,New Orleans Social House,70130,4,136,"Tapas/Small Plates, Bars, Restaurants, Nightlife",1,139,5,0,2.2,0
