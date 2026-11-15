@@ -1,0 +1,11 @@
+name,postal_code,stars,review_count,critical_reviewer_reviews,critical_positive_share,fresh_food_mentions,service_mentions,atmosphere_mentions,categories
+Restaurant Rebirth,70130,4.5,521,6,1,194,333,94,"Cajun/Creole, Soup, Seafood, Restaurants, Steakhouses, Southern"
+Restaurant August,70130,4.5,1326,42,0.8095238095238095,439,833,367,"Cajun/Creole, American (New), Restaurants, French"
+Paddlewheeler Creole Queen,70130,4,713,5,0.8,NA,NA,NA,"Hotels & Travel, Cajun/Creole, Boat Charters, Restaurants, Tours, Event Planning & Services"
+Muriel's Jackson Square,70116,4,1963,58,0.7758620689655172,NA,NA,NA,"Cajun/Creole, Restaurants"
+The Delachaise,70115,4,416,31,0.7419354838709677,NA,NA,NA,"Wine Bars, Cajun/Creole, American (New), Nightlife, Local Flavor, Lounges, Restaurants, Bars"
+Crabby Jack's,70121,4.5,382,26,0.7307692307692307,NA,NA,NA,"Seafood, Sandwiches, Cajun/Creole, Restaurants, Southern"
+Brigtsen's Restaurant,70118,4.5,335,18,0.7222222222222222,NA,NA,NA,"Restaurants, Cajun/Creole, Active Life, Southern"
+Please-U-Restaurant,70130,4,274,14,0.7142857142857143,NA,NA,NA,"Cajun/Creole, Breakfast & Brunch, Diners, Restaurants"
+Clancy's Restaurant,70118,4,318,17,0.7058823529411765,NA,NA,NA,"Cajun/Creole, Seafood, Restaurants"
+Arnaud's French 75 Bar,70195,4.5,468,10,0.7,NA,NA,NA,"Nightlife, French, Bars, Lounges, Restaurants, Cajun/Creole"

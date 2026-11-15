@@ -1,0 +1,11 @@
+name,postal_code,stars,review_count,critical_reviewer_reviews,critical_positive_share,seafood_mentions,fresh_food_mentions,service_mentions,value_mentions,categories
+Restaurant Rebirth,70130,4.5,521,6,1,238,194,333,87,"Cajun/Creole, Soup, Seafood, Restaurants, Steakhouses, Southern"
+Budsi's Authentic Thai,70116,4.5,110,5,1,19,49,30,22,"Soup, Bars, Noodles, Nightlife, Seafood, Restaurants, Thai"
+Tito's Ceviche & Pisco,70115,4.5,213,7,0.8571428571428571,74,109,118,45,"Restaurants, Latin American, Peruvian, Seafood, Japanese"
+Barrows Catfish Restaurant New orleans,70118,4.5,197,13,0.8461538461538461,154,93,101,43,"Restaurants, Fish & Chips"
+The Franklin,70117,4,197,13,0.8461538461538461,55,65,81,35,"American (New), American (Traditional), Restaurants, Bars, Nightlife, Seafood, Cocktail Bars"
+Crabby Jack's,70121,4.5,382,26,0.7307692307692307,NA,NA,NA,NA,"Seafood, Sandwiches, Cajun/Creole, Restaurants, Southern"
+Clancy's Restaurant,70118,4,318,17,0.7058823529411765,NA,NA,NA,NA,"Cajun/Creole, Seafood, Restaurants"
+GW Fins,70112,4.5,2443,50,0.68,NA,NA,NA,NA,"Seafood, Gluten-Free, Vegetarian, Restaurants"
+Parkway Bakery & Tavern,70119,4.5,2160,90,0.6777777777777778,NA,NA,NA,NA,"Restaurants, Sandwiches, Seafood, Food, Desserts, Bakeries, Comfort Food, Beer, Wine & Spirits"
+Desi Vega's Steakhouse,70130,4.5,347,18,0.6666666666666666,NA,NA,NA,NA,"Bars, Restaurants, Steakhouses, Seafood, Nightlife"
