@@ -3,55 +3,24 @@
 library(tidyverse)
 library(here)
 
-# Select the strongest restaurant recommendations
+# Select the strongest 20 restaurant recommendations
 recommendation_list <- top_critical_reviewer_restaurants |>
   select(
     business_id,
     name,
     stars,
     review_count,
-    critical_reviewer_reviews,
-    critical_positive_reviews,
     critical_positive_share
-  ) |>
-  rename(
-    restaurant_stars = stars
   ) |>
   slice_head(n = 20)
 
-# Prepare review data
-reviews_clean <- reviews |>
-  select(
-    business_id,
-    user_id,
-    stars,
-    date,
-    text
-  )
-
-# Convert review ratings to numeric
-if (is.list(reviews_clean$stars)) {
-  reviews_clean$review_stars <- purrr::map_dbl(
-    reviews_clean$stars,
-    function(x) {
-      if (length(x) == 0 || is.na(x[1])) {
-        return(NA_real_)
-      }
-      
-      as.numeric(x[1])
-    }
-  )
-} else {
-  reviews_clean$review_stars <- as.numeric(reviews_clean$stars)
-}
-
-# Select positive reviews
-positive_reviews <- reviews_clean |>
+# Select positive reviews for these restaurants
+positive_reviews <- reviews |>
   inner_join(
     recommendation_list,
     by = "business_id"
   ) |>
-  filter(review_stars >= 4) |>
+  filter(stars >= 4) |>
   mutate(
     review_text = str_to_lower(text),
     
@@ -86,15 +55,13 @@ positive_reviews <- reviews_clean |>
     )
   )
 
-# Summarize themes
+# Count common themes for each restaurant
 review_theme_summary <- positive_reviews |>
   group_by(
     business_id,
     name,
-    restaurant_stars,
+    stars,
     review_count,
-    critical_reviewer_reviews,
-    critical_positive_reviews,
     critical_positive_share
   ) |>
   summarise(
@@ -109,17 +76,17 @@ review_theme_summary <- positive_reviews |>
   ) |>
   arrange(desc(critical_positive_share))
 
-# Save results
+# Save theme summary
 write_csv(
   review_theme_summary,
   here("figures", "review_theme_summary.csv")
 )
 
-# Save review examples
+# Save example positive reviews
 review_examples <- positive_reviews |>
   select(
     name,
-    review_stars,
+    stars,
     date,
     text
   ) |>
@@ -134,27 +101,5 @@ write_csv(
 )
 
 # Display results
-print(
-  review_theme_summary |>
-    select(
-      name,
-      restaurant_stars,
-      review_count,
-      critical_reviewer_reviews,
-      critical_positive_share,
-      fresh_food_mentions,
-      seafood_mentions,
-      fast_service_mentions,
-      service_mentions,
-      value_mentions,
-      atmosphere_mentions
-    ) |>
-    slice_head(n = 20),
-  width = Inf
-)
-
-print(
-  review_examples |>
-    slice_head(n = 10),
-  width = 120
-)
+print(review_theme_summary)
+print(review_examples)
