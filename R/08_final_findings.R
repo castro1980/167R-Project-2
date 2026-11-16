@@ -1,4 +1,4 @@
-# Step 8: Creative and reader-friendly final findings
+# Step 8: Final findings graphs
 
 library(tidyverse)
 library(here)
@@ -6,27 +6,23 @@ library(scales)
 
 dir.create(here("figures"), showWarnings = FALSE)
 
-# Consistent graph style
 project_theme <- theme_minimal(base_size = 14) +
   theme(
     plot.title = element_text(
       face = "bold",
-      size = 18,
-      color = "#222222"
+      size = 18
     ),
     plot.subtitle = element_text(
       size = 12,
       color = "gray30"
     ),
     axis.title = element_text(face = "bold"),
-    axis.text = element_text(color = "gray20"),
     panel.grid.minor = element_blank(),
-    legend.position = "none",
-    plot.margin = margin(12, 20, 12, 12)
+    legend.position = "none"
   )
 
 # ---------------------------------------------------------
-# 1. What restaurant categories are most common?
+# 1. Most common restaurant categories
 # ---------------------------------------------------------
 
 category_counts <- read_csv(
@@ -66,7 +62,7 @@ category_plot <- ggplot(
   ) +
   labs(
     title = "Which Restaurant Categories Are Most Common?",
-    subtitle = "The most frequently represented restaurant categories",
+    subtitle = "The most frequently represented categories in the Yelp data",
     x = NULL,
     y = "Number of restaurants"
   ) +
@@ -87,7 +83,7 @@ ggsave(
 )
 
 # ---------------------------------------------------------
-# 2. Which restaurant fits each dining need?
+# 2. Restaurant recommendations by dining need
 # ---------------------------------------------------------
 
 read_recommendations <- function(file_name, dining_need) {
@@ -138,24 +134,18 @@ recommendations <- bind_rows(
       )
     ),
     name = str_wrap(name, width = 18),
-    stars_label = paste0(stars, " stars"),
-    reviews_label = paste0(
-      comma(review_count),
-      " Yelp reviews"
-    ),
-    critical_label = paste0(
-      "Critical reviewers: ",
-      percent(
-        critical_positive_share,
-        accuracy = 1
-      ),
-      " positive"
-    ),
     card_label = paste(
       name,
-      stars_label,
-      reviews_label,
-      str_wrap(critical_label, width = 18),
+      paste0(stars, " stars"),
+      paste0(comma(review_count), " Yelp reviews"),
+      paste0(
+        "Critical reviewers: ",
+        percent(
+          critical_positive_share,
+          accuracy = 1
+        ),
+        " positive"
+      ),
       sep = "\n"
     )
   )
@@ -213,7 +203,7 @@ ggsave(
 )
 
 # ---------------------------------------------------------
-# 3. Which restaurants impress critical reviewers?
+# 3. Restaurants that impress critical reviewers
 # ---------------------------------------------------------
 
 critical_reviewers <- read_csv(
@@ -229,9 +219,6 @@ critical_reviewers <- read_csv(
     !is.na(critical_positive_share)
   )
 
-# Select the ten strongest results.
-# If restaurants have the same percentage,
-# the restaurant with more critical-reviewer ratings comes first.
 critical_top <- critical_reviewers |>
   arrange(
     desc(critical_positive_share),
@@ -267,9 +254,7 @@ critical_plot <- ggplot(
     fill = critical_positive_share
   )
 ) +
-  geom_col(
-    width = 0.65
-  ) +
+  geom_col(width = 0.65) +
   geom_text(
     aes(
       label = paste(
@@ -317,7 +302,7 @@ ggsave(
 )
 
 # ---------------------------------------------------------
-# 4. What do reviewers mention most often?
+# 4. Review themes
 # ---------------------------------------------------------
 
 review_themes <- read_csv(
@@ -414,64 +399,84 @@ ggsave(
 # ---------------------------------------------------------
 
 ratings_reviews <- critical_reviewers |>
-  filter(
-    review_count >= 100,
-    stars >= 3
+  filter(review_count >= 100) |>
+  mutate(
+    review_group = case_when(
+      review_count < 500 ~ "100–499 reviews",
+      review_count < 1000 ~ "500–999 reviews",
+      TRUE ~ "1,000+ reviews"
+    )
   )
 
-restaurants_to_label <- ratings_reviews |>
-  arrange(desc(review_count)) |>
-  slice_head(n = 8)
+rating_summary <- ratings_reviews |>
+  group_by(review_group) |>
+  summarise(
+    average_rating = mean(stars, na.rm = TRUE),
+    restaurant_count = n(),
+    .groups = "drop"
+  ) |>
+  mutate(
+    review_group = factor(
+      review_group,
+      levels = c(
+        "100–499 reviews",
+        "500–999 reviews",
+        "1,000+ reviews"
+      )
+    ),
+    label = paste0(
+      round(average_rating, 2),
+      " stars\n",
+      restaurant_count,
+      " restaurants"
+    )
+  )
 
 ratings_plot <- ggplot(
-  ratings_reviews,
+  rating_summary,
   aes(
-    x = review_count,
-    y = stars,
-    size = critical_reviewer_reviews,
-    color = critical_positive_share
+    x = review_group,
+    y = average_rating,
+    group = 1
   )
 ) +
-  geom_point(alpha = 0.65) +
-  geom_text(
-    data = restaurants_to_label,
-    aes(label = name),
-    color = "#222222",
-    size = 3.2,
-    nudge_y = 0.04,
-    check_overlap = TRUE
+  geom_line(
+    color = "#4D4D4D",
+    linewidth = 1.2
   ) +
-  scale_x_log10(
-    labels = comma
+  geom_point(
+    color = "#D95F02",
+    size = 7
+  ) +
+  geom_text(
+    aes(label = label),
+    vjust = -1,
+    size = 4
   ) +
   scale_y_continuous(
-    breaks = seq(3, 5, 0.5),
-    limits = c(3, 5.2)
-  ) +
-  scale_color_gradient(
-    low = "#FEE0D2",
-    high = "#99000D",
-    labels = percent
+    limits = c(3.5, 5),
+    breaks = seq(3.5, 5, 0.25)
   ) +
   labs(
-    title = "Do More Reviews Mean Higher Ratings?",
-    subtitle = "Each point represents a New Orleans restaurant",
+    title = "Do Restaurants With More Reviews Have Higher Ratings?",
+    subtitle = "Average Yelp rating by review-volume group",
     x = "Number of Yelp reviews",
-    y = "Yelp star rating",
-    color = "Positive ratings from critical reviewers",
-    size = "Critical-reviewer reviews"
+    y = "Average Yelp star rating"
   ) +
   project_theme +
   theme(
-    legend.position = "right"
+    panel.grid.major.x = element_blank(),
+    axis.text.x = element_text(
+      size = 11
+    )
   )
 
 ggsave(
   here("figures", "ratings_and_reviews.png"),
   ratings_plot,
-  width = 11,
-  height = 7,
+  width = 10,
+  height = 6,
   dpi = 300
 )
 
-cat("\nAll redesigned graphs were created successfully.\n")
+cat("\nAll final findings graphs were created successfully.\n")
