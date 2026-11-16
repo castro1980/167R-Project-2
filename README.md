@@ -1,34 +1,58 @@
-# New Orleans Restaurant Analysis
+# New Orleans Restaurant Guide Using Yelp Data
+
+## Can Yelp data help visitors choose a New Orleans restaurant?
+
+This project analyzes Yelp restaurant data from New Orleans, Louisiana. The goal is to identify restaurants for different dining needs and explain why they were recommended.
+
+The recommendations use:
+
+- Yelp star ratings
+- Number of Yelp reviews
+- Restaurant category
+- Ratings from critical reviewers
+- Common themes in positive reviews
+
+---
 
 ## Main Research Question
 
-Which New Orleans restaurants are best suited for different dining needs, and what do Yelp reviewers say about those restaurants?
+**Which New Orleans restaurants are best suited for different dining needs, and what do Yelp reviewers say about those restaurants?**
 
-## Supporting Questions
+The project focuses on practical questions a visitor might ask:
 
-- Where are restaurants concentrated in New Orleans?
+- Where are restaurants concentrated?
 - Which restaurant categories are most common?
-- Which restaurants are good choices for a quick bite?
-- Which restaurants are strong choices for seafood?
-- Which restaurants are strong choices for Cajun or Creole food?
-- Which restaurants are good choices for dessert?
-- Which restaurants receive positive ratings from generally critical reviewers?
-- What do reviewers mention about the recommended restaurants?
+- What is a good place for a quick bite?
+- Where can visitors find seafood?
+- Which restaurants are good choices for Cajun or Creole food?
+- Where can visitors go for dessert?
+- Which restaurants impress reviewers who are usually more critical?
+- What do reviewers say about the recommended restaurants?
 
-## Geographic Region
+---
 
-I selected New Orleans, Louisiana, as the study region because it is a major food and tourism destination with many restaurants and Yelp reviews.
+## Study Region
 
-I compared two geographic systems:
+I selected **New Orleans, Louisiana** because it is a major food and tourism destination with many restaurants and Yelp reviews.
 
-- ZIP Code Tabulation Areas (ZCTAs)
-- Census tracts
+The analysis included:
 
-I selected ZIP Code Tabulation Areas as the primary geographic system because they assigned all 2,259 restaurants to a geographic area. Census tracts left 57 restaurants unmatched. ZCTAs also created 29 areas, which are easier to interpret than 145 Census tracts.
+- **2,259 New Orleans restaurants**
+- **476,421 restaurant reviews**
+- **29 ZIP Code Tabulation Areas**
+
+I compared ZIP Code Tabulation Areas with Census tracts. ZIP Code Tabulation Areas were selected as the primary geographic system because they assigned all 2,259 restaurants to an area.
+
+| Geographic system | Number of areas | Restaurants assigned | Unmatched restaurants |
+|---|---:|---:|---:|
+| ZIP Code Tabulation Areas | 29 | 2,259 | 0 |
+| Census tracts | 145 | 2,202 | 57 |
+
+---
 
 ## Data Preparation
 
-I used the Yelp Open Dataset. The large JSON files were downloaded, unzipped, and imported into R.
+The Yelp Open Dataset was downloaded, unzipped, and imported into R.
 
 The data was filtered to include businesses that:
 
@@ -36,185 +60,203 @@ The data was filtered to include businesses that:
 - Were located in New Orleans
 - Included “Restaurants” in their business categories
 
-This produced a dataset of 2,259 New Orleans restaurants. The restaurant and review data were saved as RDS files for more efficient analysis.
+The large original JSON files were saved locally and excluded from GitHub using `.gitignore`. The filtered restaurant and review data were saved as RDS files for more efficient analysis.
 
-The original large JSON files were kept locally and excluded from GitHub using `.gitignore`.
+---
 
-## Definition of a Strong Restaurant
+## How Were Restaurants Recommended?
 
 A restaurant was considered a strong recommendation when it had:
 
-- A rating of at least 4 stars
+- At least 4 stars
 - At least 100 Yelp reviews
 - At least 5 reviews from critical reviewers
-- Positive review themes
+- Positive ratings from critical reviewers
 - A relevant restaurant category
+- Positive review themes
 
-A critical reviewer was defined as a reviewer who:
+A **critical reviewer** was defined as a reviewer who:
 
 - Had written at least 10 reviews in the available dataset
 - Had an average rating of 3.5 stars or lower
 
-A positive rating from a critical reviewer was defined as a rating of 4 or 5 stars.
+A positive rating from a critical reviewer means a rating of 4 or 5 stars.
 
-The reviewer analysis was calculated using reviews of New Orleans restaurants in this project. It does not represent every Yelp review written by each reviewer.
+---
 
-## Geographic Comparison
+# Findings
 
-| Geographic system | Number of areas | Restaurants assigned | Unmatched restaurants |
-|-------------------|-----------------|----------------------|-----------------------|
-| ZIP Code Tabulation Areas | 29 | 2,259 | 0 |
-| Census tracts | 145 | 2,202 | 57 |
+## 1. Where are restaurants concentrated?
 
-ZIP Code 70130 had the largest number of restaurants in the analysis.
+### Answer
 
-## Restaurant Recommendation Analysis
+**ZIP Code 70130 has the largest concentration of restaurants, with 588 restaurants.**
 
-I created recommendation tables for:
+ZIP Code Tabulation Areas were used for the main geographic analysis because every restaurant was assigned to one.
 
-- Seafood restaurants
-- Quick-bite restaurants
-- Cajun and Creole restaurants
-- Dessert restaurants
-
-The review-theme analysis searched positive reviews for mentions of:
-
-- Fresh or delicious food
-- Seafood
-- Fast service
-- Friendly service
-- Value and portions
-- Atmosphere
-
-These themes help explain why a restaurant was recommended instead of relying only on its star rating.
-
-## Findings
-
-### 1. Where are restaurants concentrated?
-
-ZIP Code 70130 has the largest restaurant concentration, with 588 restaurants. ZIP Code Tabulation Areas were selected as the primary geographic system because all 2,259 restaurants were assigned to an area.
+### Restaurant concentration map
 
 ![Restaurants by ZIP Code](figures/restaurants_zcta_map.png)
 
 [View the ZIP Code summary table](figures/zip_restaurant_summary.csv)
 
-### 2. Which restaurant categories are most common?
+---
 
-The most common categories include Cajun/Creole, Breakfast & Brunch, and Sandwiches. The category graph shows which types of restaurants are most widely represented in the New Orleans Yelp data.
+## 2. Which restaurant categories are most common?
+
+### Answer
+
+The most common restaurant categories include:
+
+- Cajun/Creole
+- Breakfast & Brunch
+- Sandwiches
+- Seafood
+- American restaurants
+
+This shows that New Orleans Yelp restaurants include both traditional local food and many casual dining choices.
 
 ![Most common restaurant categories](figures/top_restaurant_categories.png)
 
-[View the category table](figures/category_counts.csv)
+[View the restaurant category table](figures/category_counts.csv)
 
-### 3. Which restaurants are recommended for different dining needs?
+[R code for this analysis](R/02_categories.R)
 
-The recommendation analysis compares restaurants using:
+---
 
-- Overall Yelp rating
-- Number of reviews
-- Number of reviews from critical reviewers
-- Positive ratings from critical reviewers
-- Restaurant category
+## 3. Which restaurants fit different dining needs?
 
-![Restaurant recommendations](figures/recommendation_comparison.png)
+### Answer
 
-[Seafood recommendations](figures/seafood_recommendations.csv)
+The recommendations below identify one strong restaurant for each dining need.
 
-[Quick-bite recommendations](figures/quick_bite_recommendations.csv)
+| Dining need | Recommended restaurant |
+|---|---|
+| Quick bite | French Toast |
+| Seafood | Restaurant Rebirth |
+| Cajun/Creole food | Restaurant Rebirth |
+| Dessert | Angelo Brocato |
 
-[Cajun and Creole recommendations](figures/cajun_creole_recommendations.csv)
+These recommendations are based on Yelp ratings, review counts, restaurant categories, and support from critical reviewers.
 
-[Dessert recommendations](figures/dessert_recommendations.csv)
+![Restaurant recommendations by dining need](figures/recommendation_scorecards.png)
 
-### 4. Which restaurants impress critical reviewers?
+Supporting tables:
 
-Restaurants were considered stronger recommendations when reviewers who usually gave lower ratings still gave them positive ratings.
-
-This approach helps identify restaurants that were appreciated by more selective reviewers, not only by reviewers who usually give high ratings.
-
-[View the critical-reviewer analysis](figures/critical_reviewer_restaurant_recommendations.csv)
-
-### 5. What do reviewers say about these restaurants?
-
-The review analysis identified themes related to:
-
-- Fresh and flavorful food
-- Seafood
-- Fast service
-- Friendly service
-- Value and portions
-- Atmosphere
-
-![Review themes](figures/review_themes_plot.png)
-
-[View the review-theme summary](figures/review_theme_summary.csv)
-
-[View example reviews](figures/review_examples.csv)
-
-### Overall conclusion
-
-The analysis shows that restaurant recommendations should not depend on star ratings alone. A stronger recommendation considers the restaurant’s category, number of reviews, overall rating, performance with critical reviewers, and the qualities mentioned in positive reviews.
-
-## Maps and Figures
-
-### Restaurants by ZIP Code
-
-![Restaurants by ZIP Code](figures/restaurants_zcta_map.png)
-
-### Restaurants by Census Tract
-
-![Restaurants by Census Tract](figures/restaurants_tract_map.png)
-
-### Geographic System Comparison
-
-![Geographic comparison](figures/geography_comparison_plot.png)
-
-### Restaurants by ZIP Code Count
-
-![Restaurants by ZIP Code count](figures/restaurants_by_zip.png)
-
-### Ratings and Review Counts
-
-![Ratings and review counts](figures/ratings_and_reviews.png)
-
-## Tables
-
-- [Geographic comparison table](figures/geography_comparison.csv)
-- [ZIP Code restaurant summary](figures/zip_restaurant_summary.csv)
-- [Restaurant category counts](figures/category_counts.csv)
-- [Restaurant category pairs](figures/category_pairs.csv)
-- [Top-rated restaurants](figures/top_rated_restaurants.csv)
-- [Most-reviewed restaurants](figures/most_reviewed_restaurants.csv)
-- [Critical-reviewer recommendations](figures/critical_reviewer_restaurant_recommendations.csv)
-- [Reviewer summary](figures/reviewer_summary.csv)
-- [Review theme summary](figures/review_theme_summary.csv)
-- [Review examples](figures/review_examples.csv)
-- [Seafood recommendations](figures/seafood_recommendations.csv)
 - [Quick-bite recommendations](figures/quick_bite_recommendations.csv)
+- [Seafood recommendations](figures/seafood_recommendations.csv)
 - [Cajun and Creole recommendations](figures/cajun_creole_recommendations.csv)
 - [Dessert recommendations](figures/dessert_recommendations.csv)
 
-## R Code
+[R code for this analysis](R/07_restaurant_recommendations.R)
 
-- [Data import, filtering, and RDS creation](https://github.com/castro1980/167R-Project-2/blob/main/R/01_import_and_filter.R)
-- [Restaurant category analysis](https://github.com/castro1980/167R-Project-2/blob/main/R/02_categories.R)
-- [Restaurant performance analysis](https://github.com/castro1980/167R-Project-2/blob/main/R/03_restaurant_analysis.R)
-- [Critical reviewer analysis](https://github.com/castro1980/167R-Project-2/blob/main/R/04_picky_reviewer_analysis.R)
-- [Review theme analysis](https://github.com/castro1980/167R-Project-2/blob/main/R/05_review_themes.R)
-- [Geographic analysis and maps](https://github.com/castro1980/167R-Project-2/blob/main/R/06_geography_analysis.R)
-- [Restaurant recommendations by dining need](https://github.com/castro1980/167R-Project-2/blob/main/R/07_restaurant_recommendations.R)
-- [Complete R code folder](https://github.com/castro1980/167R-Project-2/tree/main/R)
-- [Critical reviewer analysis](https://github.com/castro1980/167R-Project-2/blob/main/R/04_picky_reviewer_analysis.R)
-- [Review theme analysis](https://github.com/castro1980/167R-Project-2/blob/main/R/05_review_themes.R)
+---
 
-## Limitations
+## 4. Which restaurants impress critical reviewers?
 
-This analysis uses Yelp data, so the results may not represent every restaurant or every diner in New Orleans.
+### Answer
 
-The data does not identify whether reviewers are tourists or local residents. Therefore, the project does not directly measure tourist behavior.
+Some restaurants received strong ratings even from reviewers who usually gave lower ratings.
 
-The category recommendations are based on Yelp categories, ratings, review counts, and review text. They should be interpreted as data-based recommendations rather than objective statements about the single “best” restaurant.
+This is useful because a 4-star rating from a critical reviewer may provide stronger evidence than a 5-star rating from someone who gives almost every restaurant 5 stars.
 
-## View the Project
+The graph shows:
+
+- The number of reviews from critical reviewers
+- The percentage of positive ratings from critical reviewers
+- Restaurant star ratings
+- The total number of Yelp reviews
+
+![Restaurants that impress critical reviewers](figures/critical_reviewer_graph.png)
+
+[View the critical-reviewer recommendation table](figures/critical_reviewer_restaurant_recommendations.csv)
+
+[R code for this analysis](R/04_picky_reviewer_analysis.R)
+
+---
+
+## 5. What do reviewers mention most often?
+
+### Answer
+
+Positive reviewers most often mention themes related to:
+
+- Fresh and flavorful food
+- Friendly service
+- Value and portions
+- Seafood
+- Atmosphere
+- Fast service
+
+These themes help explain why a restaurant was recommended instead of relying only on its star rating.
+
+![Review themes](figures/review_themes_plot.png)
+
+Supporting files:
+
+- [Review theme summary](figures/review_theme_summary.csv)
+- [Example reviews](figures/review_examples.csv)
+
+[R code for this analysis](R/05_review_themes.R)
+
+---
+
+## Do More Reviews Mean Higher Ratings?
+
+This graph compares the number of Yelp reviews with restaurant star ratings.
+
+It helps show whether restaurants with many reviews also tend to have high ratings.
+
+![Ratings and review counts](figures/ratings_and_reviews.png)
+
+---
+
+# Overall Conclusion
+
+The analysis shows that restaurant recommendations should not depend on star ratings alone.
+
+A stronger recommendation considers:
+
+- Restaurant category
+- Number of reviews
+- Overall rating
+- Ratings from critical reviewers
+- Positive review themes
+- Geographic location
+
+For example, a restaurant may be especially useful for a visitor because it has strong reviews from critical reviewers, offers a specific type of food, or is located in an area with many other restaurants.
+
+These results provide data-based recommendations for New Orleans visitors. They do not identify one universally “best” restaurant.
+
+---
+
+# Limitations
+
+This project uses Yelp data, so the results may not represent every restaurant or every diner in New Orleans.
+
+The data does not identify whether reviewers are tourists or local residents. Therefore, this project does not directly measure tourist behavior.
+
+The recommendations are based on Yelp categories, ratings, review counts, critical-reviewer ratings, and review text. They should be interpreted as data-based recommendations rather than objective statements about the single best restaurant.
+
+---
+
+# R Code
+
+All analysis was completed in R.
+
+- [Data import, filtering, and RDS creation](R/01_import_and_filter.R)
+- [Restaurant category analysis](R/02_categories.R)
+- [Restaurant performance analysis](R/03_restaurant_analysis.R)
+- [Critical-reviewer analysis](R/04_picky_reviewer_analysis.R)
+- [Review-theme analysis](R/05_review_themes.R)
+- [Geographic analysis and maps](R/06_geography_analysis.R)
+- [Restaurant recommendations](R/07_restaurant_recommendations.R)
+- [Final graphs and findings](R/08_final_findings.R)
+
+[View the complete R code folder](R/)
+
+---
+
+# View the Project
 
 [View the project through GitHub Pages](https://castro1980.github.io/167R-Project-2/)
