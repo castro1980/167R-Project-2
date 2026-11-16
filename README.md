@@ -88,6 +88,73 @@ The review-theme analysis searched positive reviews for mentions of:
 
 These themes help explain why a restaurant was recommended instead of relying only on its star rating.
 
+## Findings
+
+### 1. Where are restaurants concentrated?
+
+ZIP Code 70130 has the largest restaurant concentration, with 588 restaurants. ZIP Code Tabulation Areas were selected as the primary geographic system because all 2,259 restaurants were assigned to an area.
+
+![Restaurants by ZIP Code](figures/restaurants_zcta_map.png)
+
+[View the ZIP Code summary table](figures/zip_restaurant_summary.csv)
+
+### 2. Which restaurant categories are most common?
+
+The most common categories include Cajun/Creole, Breakfast & Brunch, and Sandwiches. The category graph shows which types of restaurants are most widely represented in the New Orleans Yelp data.
+
+![Most common restaurant categories](figures/top_restaurant_categories.png)
+
+[View the category table](figures/category_counts.csv)
+
+### 3. Which restaurants are recommended for different dining needs?
+
+The recommendation analysis compares restaurants using:
+
+- Overall Yelp rating
+- Number of reviews
+- Number of reviews from critical reviewers
+- Positive ratings from critical reviewers
+- Restaurant category
+
+![Restaurant recommendations](figures/recommendation_comparison.png)
+
+[Seafood recommendations](figures/seafood_recommendations.csv)
+
+[Quick-bite recommendations](figures/quick_bite_recommendations.csv)
+
+[Cajun and Creole recommendations](figures/cajun_creole_recommendations.csv)
+
+[Dessert recommendations](figures/dessert_recommendations.csv)
+
+### 4. Which restaurants impress critical reviewers?
+
+Restaurants were considered stronger recommendations when reviewers who usually gave lower ratings still gave them positive ratings.
+
+This approach helps identify restaurants that were appreciated by more selective reviewers, not only by reviewers who usually give high ratings.
+
+[View the critical-reviewer analysis](figures/critical_reviewer_restaurant_recommendations.csv)
+
+### 5. What do reviewers say about these restaurants?
+
+The review analysis identified themes related to:
+
+- Fresh and flavorful food
+- Seafood
+- Fast service
+- Friendly service
+- Value and portions
+- Atmosphere
+
+![Review themes](figures/review_themes_plot.png)
+
+[View the review-theme summary](figures/review_theme_summary.csv)
+
+[View example reviews](figures/review_examples.csv)
+
+### Overall conclusion
+
+The analysis shows that restaurant recommendations should not depend on star ratings alone. A stronger recommendation considers the restaurant’s category, number of reviews, overall rating, performance with critical reviewers, and the qualities mentioned in positive reviews.
+
 ## Maps and Figures
 
 ### Restaurants by ZIP Code
