@@ -229,66 +229,90 @@ critical_reviewers <- read_csv(
     !is.na(critical_positive_share)
   )
 
+# Select the ten strongest results.
+# If restaurants have the same percentage,
+# the restaurant with more critical-reviewer ratings comes first.
 critical_top <- critical_reviewers |>
-  arrange(desc(critical_positive_share)) |>
-  slice_head(n = 10)
+  arrange(
+    desc(critical_positive_share),
+    desc(critical_reviewer_reviews)
+  ) |>
+  slice_head(n = 10) |>
+  mutate(
+    name = str_wrap(name, width = 18),
+    percent_label = percent(
+      critical_positive_share,
+      accuracy = 1
+    ),
+    review_label = paste0(
+      critical_positive_reviews,
+      " of ",
+      critical_reviewer_reviews,
+      " positive"
+    )
+  ) |>
+  arrange(critical_positive_share) |>
+  mutate(
+    name = factor(
+      name,
+      levels = name
+    )
+  )
 
 critical_plot <- ggplot(
-  critical_reviewers,
+  critical_top,
   aes(
-    x = critical_reviewer_reviews,
+    x = name,
     y = critical_positive_share,
-    size = review_count,
-    color = stars
+    fill = critical_positive_share
   )
 ) +
-  geom_point(alpha = 0.7) +
-  geom_hline(
-    yintercept = 0.75,
-    linetype = "dashed",
-    color = "gray40"
+  geom_col(
+    width = 0.65
   ) +
   geom_text(
-    data = critical_top,
-    aes(label = name),
-    color = "#222222",
-    size = 3.3,
-    nudge_y = 0.025,
-    check_overlap = TRUE
+    aes(
+      label = paste(
+        percent_label,
+        review_label,
+        sep = "\n"
+      )
+    ),
+    vjust = -0.25,
+    size = 3.5,
+    lineheight = 1.05
+  ) +
+  scale_fill_gradient(
+    low = "#9ECAE1",
+    high = "#006D2C"
   ) +
   scale_y_continuous(
     labels = percent,
-    limits = c(0.45, 1.08)
-  ) +
-  scale_x_continuous(
-    labels = comma
-  ) +
-  scale_color_gradient(
-    low = "#FEE08B",
-    high = "#D73027"
-  ) +
-  scale_size_continuous(
-    range = c(2, 8),
-    labels = comma
+    limits = c(0, 1.18),
+    breaks = seq(0, 1, 0.25),
+    expand = expansion(mult = c(0, 0.02))
   ) +
   labs(
-    title = "Which Restaurants Impress Critical Reviewers?",
-    subtitle = "Higher points mean a larger share of positive ratings from selective reviewers",
-    x = "Number of reviews from critical reviewers",
-    y = "Positive ratings from critical reviewers",
-    color = "Restaurant rating",
-    size = "Total Yelp reviews"
+    title = "Which Restaurants Receive the Strongest Ratings?",
+    subtitle = "Top restaurants among reviewers who usually give lower ratings",
+    x = NULL,
+    y = "Positive ratings from critical reviewers"
   ) +
   project_theme +
   theme(
-    legend.position = "right"
+    axis.text.x = element_text(
+      angle = 35,
+      hjust = 1,
+      size = 10
+    ),
+    panel.grid.major.x = element_blank()
   )
 
 ggsave(
   here("figures", "critical_reviewer_graph.png"),
   critical_plot,
-  width = 11,
-  height = 7,
+  width = 12,
+  height = 8,
   dpi = 300
 )
 
